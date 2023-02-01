@@ -4,6 +4,8 @@
 ## Local run
 
 - `docker compose up`
+- npm install
+- node index
 
 ## Prerequisites
 
