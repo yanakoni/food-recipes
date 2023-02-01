@@ -1,11 +1,13 @@
 version: "3.8"
 services:
-  sqlite:
-    image: nouchka/sqlite3:latest
-    stdin_open: true
-    tty: true
-    volumes:
-      - ./api/.db/:/root/db/
+  postgres:
+    image: "postgres:13.7"
+    ports:
+      - "5432:5432"
+    environment:
+      - "POSTGRES_DB=food-db"
+      - "POSTGRES_USER=postgres"
+      - "POSTGRES_PASSWORD=postgres"
 
 
   api:
