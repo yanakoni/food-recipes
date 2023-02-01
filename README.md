@@ -3,9 +3,8 @@
 
 ## Local run
 
-- `docker compose up`
-- npm install
-- node index
+- `docker compose build`
+- `docker compose up --abort-on-container-exit`
 
 ## Prerequisites
 

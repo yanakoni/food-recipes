@@ -6,3 +6,15 @@ services:
     tty: true
     volumes:
       - ./api/.db/:/root/db/
+
+
+  api:
+    image: "food-api"
+    build:
+      context: api
+      dockerfile: "Dockerfile"
+      target: "dev"
+    tty: true
+    stdin_open: true
+    ports:
+      - "3000:3000"
