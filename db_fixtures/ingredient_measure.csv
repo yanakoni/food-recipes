@@ -1,0 +1,3115 @@
+id,ingredient_name,meal_id,measure
+1,whole wheat,1,300g soaked overnight in water
+2,lamb loin chops,1,2kg cut into 3cm cubes
+3,olive oil,1,120ml
+4,shallots,1,24 Skinned
+5,carrots,1,4 large
+6,turnips,1,2
+7,celeriac,1,1
+8,charlotte potatoes,1,350g
+9,white wine,1,150ml
+10,caster sugar,1,1 tsp
+11,fresh thyme,1,4 sprigs
+12,oregano,1,4 sprigs
+13,chicken stock,1,450ml
+14,Double Cream,2,568ml
+15,White Chocolate Chips,2,100g 
+16,Vanilla,2,Pod of
+17,Egg Yolks,2,6
+18,Caster Sugar,2,2 tbs
+19,Caster Sugar,2,Top
+20,Pork,3,1lb
+21,Garlic Clove,3,3 chopped
+22,Ginger,3,1 tsp 
+23,Soy Sauce,3,1 tbs
+24,Sesame Seed Oil,3,1 tsp 
+25,Carrots,3,3 finely chopped
+26,Celery,3,3 finely chopped
+27,Spring Onions,3,6 chopped
+28,Wonton Skin,3,1 Packet
+29,Oil,3,Fry
+30,Water,3,Bottle
+31,Flour,4,450g
+32,Caster Sugar,4,55g
+33,Yeast,4,2 parts 
+34,Salt,4,1/2 tsp
+35,Milk,4,6 oz 
+36,Eggs,4,2 Beaten 
+37,Butter,4,30g
+38,Walnuts,4,140g
+39,Butter,4,85g
+40,Brown Sugar,4,85g
+41,Cinnamon,4,1 tsp 
+42,Milk,4,To Glaze
+43,Icing Sugar,4,To Glaze
+44,soy sauce,5,3/4 cup
+45,water,5,1/2 cup
+46,brown sugar,5,1/4 cup
+47,ground ginger,5,1/2 teaspoon
+48,minced garlic,5,1/2 teaspoon
+49,cornstarch,5,4 Tablespoons
+50,chicken breasts,5,2
+51,stir-fry vegetables,5,1 (12 oz.)
+52,brown rice,5,3 cups
+53,lemons,6,2 Juice
+54,paprika,6,4 tsp
+55,red onions,6,2 finely chopped
+56,chicken thighs,6,16 skinnless
+57,vegetable oil,6,For brushing
+58,Greek yogurt,6,300ml 
+59,ginger,6,large piece
+60,garlic clove,6,4
+61,garam masala,6,¾ tsp
+62,ground cumin,6,¾ tsp
+63,chilli powder,6,½ tsp
+64,turmeric,6,¼ tsp
+65,potatoes,7,225g new
+66,green beans,7,100g 
+67,sunflower oil,7,1 tbsp
+68,garlic,7,1 clove
+69,Thai green curry paste,7,4 tsp 
+70,coconut milk,7,400ml
+71,Thai fish sauce,7,2 tsp
+72,Sugar,7,1 tsp
+73,Chicken,7,450g boneless
+74,lime,7,2 fresh kaffir leaves
+75,basil,7,handfull
+76,Rice,7,Boiled
+77,sausages,8,8
+78,vegetable oil,8,3 tbsp
+79,plain flour,8,100g
+80,eggs,8,2 medium
+81,horseradish,8,1 tbsp grated
+82,milk,8,225ml
+83,cherry tomatoes,8,200g
+84,Olive Oil,9,1 tblsp 
+85,Onion,9,1 large
+86,Garlic,9,1 clove peeled crushed
+87,Worcestershire Sauce,9,2 tblsp 
+88,Tomato Puree,9,3 tsp
+89,Turkey Mince,9,500g
+90,Eggs,9,1 large
+91,Breadcrumbs,9,85g
+92,Barbeque Sauce,9,2 tblsp 
+93,Cannellini Beans,9,800g
+94,Parsley,9,2 tblsp 
+95,Potatoes,10,450g
+96,Olive Oil,10,2 tblsp 
+97,Eggs,10,4
+98,Red Wine Vinegar,10,1 tbls
+99,Capers,10,2 tblsp 
+100,Sunflower Oil,10,50g
+101,Red Onions,10,½
+102,Spinach,10,100g 
+103,Tuna,10,400g
+104,Tahini,11,50g
+105,Lemon,11,zest and juice of 1
+106,Olive Oil,11,2 tblsp 
+107,Red Onions,11,1 chopped
+108,Garlic,11,1 clove peeled crushed
+109,Yellow Pepper,11,1 thinly sliced
+110,Green Beans,11,200g
+111,Courgettes,11,1 sliced
+112,Kale,11,100g shredded
+113,Lentils,11,250g pack
+114,Potatoes,12,1kg
+115,Butter,12,Knob
+116,Milk,12,Dash
+117,Gruyère,12,50g
+118,Butter,12,75g
+119,Leek,12,2 sliced
+120,Plain Flour,12,75g
+121,White Wine,12,150ml
+122,Milk,12,568ml
+123,Parsley,12,2 tbs chopped
+124,Salmon,12,250g
+125,Haddock,12,250g
+126,Smoked Haddock,12,250g
+127,Eggs,12,6
+128,Plain Flour,13,250g
+129,Butter,13,135g
+130,Golden Syrup,13,400g
+131,Breadcrumbs,13,150g
+132,Lemons,13,Zest of 2
+133,Eggs,13,1 beaten
+134,Puff Pastry,14,300g
+135,Plain Flour,14,Dusting
+136,Braeburn Apples,14,6
+137,Caster Sugar,14,100g 
+138,Butter,14,85g
+139,Creme Fraiche,14,to serve
+140,Butter,15,50g
+141,Parmesan,15,25g
+142,Milk,15,300ml 
+143,Bay Leaves,15,2
+144,Plain Flour,15,5 tbs
+145,English Mustard,15,½ tsp
+146,Cayenne Pepper,15,Pod of
+147,Gruyère,15,140g
+148,Eggs,15,3
+149,Goats Cheese,15,8 slices
+150,Double Cream,15,150ml
+151,Spinach,15,to serve
+152,Potatoes,16,1 medium
+153,Sunflower Oil,16,1 tsp 
+154,Minced Pork,16,500g
+155,Onion,16,1 finely chopped 
+156,Garlic Clove,16,1 finely chopped 
+157,Cinnamon,16,¼ tsp
+158,Allspice,16,¼ tsp
+159,Nutmeg,16,¼ tsp
+160,Vegetable Stock,16,100ml
+161,Shortcrust Pastry,16,400g
+162,Egg,16,To Glaze
+163,Flour,17,2 cups 
+164,Sugar,17,1/3 cup
+165,Baking Powder,17,3 tsp
+166,Salt,17,½ tsp
+167,Egg,17,1 beaten
+168,Milk,17,¾ cup
+169,Oil,17,3 tbs
+170,Oil,17,for frying
+171,Icing Sugar,17,garnish
+172,Orange,18,1 large
+173,Caster Sugar,18,300g
+174,Olive Oil,18,75 ml 
+175,Flour,18,280g
+176,Baking Powder,18,1 tbs
+177,Eggs,18,4 large
+178,Vanilla Extract,18,2 tsp
+179,Lamb Mince,19,500g
+180,Garlic,19,2 cloves minced
+181,Onion,19,1
+182,Spinach,19,300g
+183,Tomato Puree,19,3 tbs
+184,Cumin,19,1 tbs
+185,Chicken Stock,19,1 Litre
+186,Harissa Spice,19,3 tsp
+187,Chickpeas,19,400g
+188,Lemon Juice,19,1/2 
+189,Macaroni,19,150g
+190,Salt,19,Pinch
+191,Pepper,19,Pinch
+192,Olive Oil,20,2 tbs
+193,Spring Onions,20,8
+194,Spinach,20,200g
+195,Filo Pastry,20,4
+196,Tuna,20,1 can 
+197,Eggs,20,2
+198,Hotsauce,20,Dash
+199,Tomatoes,20,4 Chopped
+200,Cucumber,20,1/4 
+201,Lemon Juice,20,1 tbs
+202,Apricot Jam,20,4 tbs
+203,Broad Beans,21,3 cups 
+204,Spring Onions,21,6
+205,Garlic Clove,21,4
+206,Parsley,21,1/4 cup
+207,Cumin,21,2 tsp
+208,Baking Powder,21,1 tsp 
+209,Cayenne Pepper,21,1/2 tsp
+210,Flour,21,Spinkling
+211,Vegetable Oil,21,As required
+212,Pork Chops,22,4
+213,Flour,22,100g 
+214,Eggs,22,2 Beaten 
+215,Breadcrumbs,22,100g 
+216,Vegetable Oil,22,Fry
+217,Tomato Ketchup,22,2 tbs
+218,Worcestershire Sauce,22,2 tbs
+219,Oyster Sauce,22,1 tbs
+220,Caster Sugar,22,2 tblsp 
+221,Beef,23,500g
+222,Onions,23,2 chopped
+223,Carrots,23,2 chopped
+224,Garlic,23,2 cloves
+225,Bay Leaf,23,2
+226,Red Wine,23,200ml
+227,Water,23,2 Litres
+228,Mustard,23,3 tbs
+229,Salt,23,1tbsp
+230,Pepper,23,1/2 tsp
+231,Paprika,23,1/2 tsp
+232,Vegetable Oil,23,2 tbs
+233,Toor dal,24,1 cup
+234,Water,24,2-1/2 cups
+235,Salt,24,1 tsp
+236,Turmeric,24,1/4 tsp
+237,Ghee,24,3 tbs
+238,Chopped tomatoes,24,1 cup
+239,Cumin seeds,24,1/2 tsp
+240,Mustard Seeds,24,1/2 tsp
+241,Bay Leaf,24,2
+242,Green Chili,24,1 tbs chopped
+243,Ginger,24,2 tsp shredded
+244,Cilantro,24,2 tbs 
+245,Red Pepper,24,1/2 tsp
+246,Salt,24,1/2 tsp
+247,Sugar,24,1 tsp
+248,Garam Masala,24,1/4 tsp
+249,Almonds,25,100g 
+250,Butter,25,180g
+251,Muscovado Sugar,25,180g
+252,Orange,25,Zest of 1
+253,Apricot Jam,25,3 tbs
+254,Plain Flour,25,225g
+255,Baking Powder,25,1 tsp 
+256,Eggs,25,3 Large
+257,Ground Almonds,25,100g 
+258,Milk,25,2 tbs
+259,Dried Fruit,25,500g
+260,Glace Cherry,25,100g 
+261,Milk,25,1 tbs
+262,Caster Sugar,25,2 tsp
+263,Sea Salt,26,Handful
+264,Bay Leaf,26,4
+265,Garlic,26,4 cloves
+266,Thyme,26,Handful
+267,Duck Legs,26,4
+268,White Wine,26,100ml
+269,green red lentils,27,1 cups
+270,carrot,27,1
+271,onion,27,1
+272,zucchini,27,1 small
+273,coriander,27,sprinking
+274,spinach,27,150g
+275,lasagne sheets,27,10
+276,vegan butter,27,35g
+277,flour,27,4 tablespoons
+278,soya milk,27,300ml
+279,mustard,27,1.5 teaspoons
+280,vinegar,27,1 teaspoon
+281,self raising flour,28,1 1/4 cup
+282,coco sugar,28,1/2 cup
+283,cacao,28,1/3 cup raw
+284,baking powder,28,1 tsp
+285,flax eggs,28,2
+286,almond milk,28,1/2 cup
+287,vanilla,28,1 tsp
+288,water,28,1/2 cup boiling
+289,Pork,29,1.5 pounds sliced
+290,Rice Vermicelli,29,1 package thin
+291,Egg Rolls,29,4-6
+292,Challots,29,3 tablespoons minced
+293,Garlic,29,1.5 tablespoons minced garlic
+294,Sugar,29,¼ cup
+295,Fish Sauce,29,1 tablespoon
+296,Soy sauce,29,½ tablespoon thick
+297,Pepper,29,½ tablespoon
+298,Olive Oil,29,3 tablespoons
+299,Cucumber,29,Sliced
+300,Mint,29,Leaves
+301,Peanuts,29,Crushed
+302,Olive Oil,30,1 tbls
+303,Duck Legs,30,4
+304,Onions,30,2 finely chopped
+305,Garlic,30,2 cloves minced
+306,Cinnamon,30,2 tsp ground
+307,Plain Flour,30,2 tsp
+308,Red Wine,30,250ml
+309,Chopped Tomatoes,30,800g
+310,Chicken Stock Cube,30,1
+311,Rosemary,30,3 sprigs
+312,Bay Leaves,30,2
+313,Sugar,30,1 tsp 
+314,Milk,30,2 tbs
+315,Paccheri Pasta,30,600g
+316,Parmesan Cheese,30,Grated
+317,Rapeseed Oil,31,1
+318,Onion,31,1
+319,Garlic,31,3 cloves
+320,Paprika,31,1 tsp 
+321,Cumin,31,½ tsp
+322,Thyme,31,1 tblsp 
+323,Carrots,31,3 Medium
+324,Celery,31,2 small stalks
+325,Red Pepper,31,1
+326,Yellow Pepper,31,1
+327,Tomato,31,2 x 400g tins
+328,Vegetable Stock Cube,31,250ml
+329,Courgettes,31,2 sliced
+330,Thyme,31,2 sprigs
+331,Lentils,31,250g
+332,Roasted Vegetables,32,400g
+333,Kidney Beans,32,1 can 
+334,Chopped Tomatoes,32,1 can 
+335,Mixed Grain,32,1 Packet
+336,Potatoes,33,3 Lbs
+337,Small Potatoes,33,3 Lbs
+338,Salted Butter,33,1/2 cup 
+339,Mushrooms,33,1 oz 
+340,Brown Lentils,33,3/4 cup 
+341,Garlic,33,6 cloves
+342,Kosher Salt,33,1 tsp 
+343,Onion,33,3 cups 
+344,Tomato Puree,33,2 tbsp
+345,Bay Leaves,33, 
+346,Olive Oil,33, 
+347,Dry White Wine,33,2 cups 
+348,Vegetable Stock,33,8 cups 
+349,Cornstarch,33,2 tbsp
+350,Soy Sauce,33,2 tsp
+351,Rosemary,33,2 sprigs
+352,Parsley,33, 
+353,Sage,33, 
+354,Chives,33, 
+355,mozzarella balls,34,200 g
+356,baby plum tomatoes,34,250 g
+357,fresh basil,34,1  bunch
+358,farfalle,34,350 g
+359,extra virgin olive oil,34,3  tablespoons
+360,Green Olives,34,40 g
+361,tuna,34,200 g
+362,salt,34,to taste
+363,pepper,34,to taste
+364,Peanuts,35,85g
+365,Coconut cream,35,400ml can
+366,Massaman curry paste,35,4 tbsp
+367,Beef,35,600g stewing cut into strips
+368,Potatoes,35,450g waxy
+369,Onion,35,1 cut thin wedges
+370,Lime,35,4 leaves
+371,Cinnamon stick,35,1
+372,Tamarind paste,35,1 tbsp
+373,Brown sugar,35,1 tbsp palm or soft light
+374,Fish Sauce,35,1 tbsp
+375,chilli,35,"1 red deseeded and finely sliced, to serve"
+376,Jasmine Rice,35,to serve
+377,Mushrooms,36,30g
+378,Chestnuts,36,240g
+379,Challots,36,3
+380,Garlic,36,3 cloves
+381,Rosemary,36,3 sprigs
+382,Wild Mushrooms,36,500g
+383,Soy Sauce,36,2 tblsp 
+384,White Wine,36,125ml 
+385,Lasagne Sheets,36,350g
+386,Breadcrumbs,36,4 tbsp
+387,Sage,36,1/2 handful 
+388,Truffle Oil,36,to serve
+389,Sunflower Oil,37,1 tbls
+390,Paneer,37,225g
+391,Ginger,37,2
+392,Cumin,37,1 tsp 
+393,Turmeric,37,1 tsp 
+394,Coriander,37,1 tsp 
+395,Green Chilli,37,1
+396,Tomato,37,4 large
+397,Peas,37,150g
+398,Garam Masala,37,1 tsp 
+399,Coriander,37,Small bunch
+400,Naan Bread,37,to serve
+401,Vegetable Oil,38,2 tbs
+402,Minced Beef,38,500g
+403,Onion,38,1 chopped
+404,Tomato Puree,38,1 tbls
+405,Plain Flour,38,1 ½ tbsp
+406,Mushrooms,38,75g
+407,Beef Stock,38,250ml
+408,Worcestershire Sauce,38,Dash
+409,Shortcrust Pastry,38,400g
+410,Egg Yolks,38,1
+411,Cumin,39,2 tsp
+412,Rapeseed Oil,39,1 tbs
+413,Red Onions,39,2 finely chopped
+414,Garlic Clove,39,6
+415,Green Chilli,39,3 finely chopped
+416,Red Pepper,39,1 finely chopped 
+417,Nutmeg,39,1 tsp 
+418,Coriander,39,2 tsp
+419,Lamb Mince,39,1kg
+420,Pepper,39,1 tsp 
+421,Coriander,39,3 tbs
+422,Plain Flour,39,340g
+423,Salt,39,½ tsp
+424,Milk,39,90 ml 
+425,Lard,39,150g
+426,Egg Yolks,39,Beaten
+427,Butter,40,175g
+428,Caster Sugar,40,175g
+429,Eggs,40,3
+430,Self-raising Flour,40,250g
+431,Milk,40,3 tbs
+432,Lemon,40,Zest of 1
+433,Mixed Peel,40,To Glaze
+434,Beef Brisket,41,1
+435,Salt,41,3 tbs
+436,Black Pepper,41,3 tbs
+437,Coriander,41,1 tbs
+438,Sugar,41,1 tbs
+439,Bay Leaf,41,1 tsp 
+440,Cloves,41,1 tsp 
+441,Black Pepper,41,3 tbs
+442,Coriander,41,1 tbs
+443,Paprika,41,1 tbs
+444,Garlic,41,1 tbs
+445,Onion,41,1 tbs
+446,Dill,41,1 tbs
+447,English Mustard,41,1 tsp 
+448,Celery Salt,41,1 tbs
+449,Red Pepper Flakes,41,1 tsp 
+450,Tofu,42,450g
+451,Minced Beef,42,100g 
+452,Sesame Seed Oil,42,1/2 tbs
+453,Doubanjiang,42,1 1/2 tsp 
+454,Fermented Black Beans,42,1/2 tsp
+455,Pepper,42,1 tbs
+456,Salt,42,1/2 tsp
+457,Sichuan pepper,42,1/2 tsp
+458,Soy Sauce,42,1 tbs
+459,Water,42,400ml
+460,Olive Oil,42,2 tbs
+461,Scallions,42,2 chopped
+462,Spring Onions,42,4
+463,Garlic,42,2 cloves chopped
+464,Ginger,42,4 sliced
+465,Water,42,2 1/2 tbs
+466,Cornstarch,42,1 tbs
+467,Goat Meat,43,1 kg
+468,Corn Flour,43,1 kg
+469,Tomatoes,43,2
+470,Salt,43,Pinch
+471,Onion,43,1
+472,Green Chilli,43,1
+473,Coriander Leaves,43,1  bunch
+474,Butter,44,225g
+475,Plain Flour,44,350g
+476,Caster Sugar,44,100g 
+477,Mincemeat,44,280g
+478,Egg,44,1 small
+479,Icing Sugar,44,Topping
+480,Beef,45,500g
+481,Aubergine,45,1 large
+482,Greek Yogurt,45,150g
+483,Egg,45,1 beaten
+484,Parmesan,45,3 tbs
+485,Tomato,45,400g
+486,Tomato Puree,45,4 tbs
+487,Potatoes,45,350g
+488,Mulukhiyah,46,800g
+489,Onion,46,1 chopped
+490,Beef,46,300g
+491,Salt,46,1 tsp 
+492,Water,46,1 Litre
+493,Garlic Clove,46,1
+494,Olive Oil,46,1/2 cup 
+495,Potatoes,47,1kg
+496,Milk,47,200ml
+497,Butter,47,50g
+498,Mustard,47,2 tbs
+499,Spring Onions,47,Bunch
+500,Spring Onions,47,Bunch
+501,Carrots,48,6 chopped
+502,Onion,48,1 sliced
+503,Garlic Clove,48,4
+504,Cumin,48,1 tsp 
+505,Coriander,48,1/2 tsp
+506,Olive Oil,48,1 tbs
+507,Garam Masala,48,1/4 tsp
+508,Lemon Juice,48,1 tsp 
+509,Peanuts,49,50g
+510,Chilli,49,15g
+511,Prawns,49,10g
+512,Oil,49,5 tbs
+513,Water,49,750 ml 
+514,Tamarind Paste,49,1/2 tbs
+515,Potatoes,49,250g
+516,Red Onions,49,2
+517,Garlic Clove,49,4
+518,Cabbage,49,30g
+519,Chinese Broccoli,49,30g
+520,Tofu,49,1
+521,Soy Sauce,49,1 tbs
+522,Noodles,49,4
+523,Egg,49,1
+524,Mushrooms,50,150g
+525,Buckwheat,50,50g
+526,Vegetable Oil,50,4 tbs
+527,Onion,50,40g
+528,Garlic,50,2 cloves
+529,Bay Leaf,50,1
+530,Vegetable Stock Cube,50,1tbsp
+531,Sour Cream,50,50 ml 
+532,White Wine Vinegar,50,Dash
+533,Parsley,50,Top
+534,olive oil,51,2 tbsp
+535,ginger,51,4cm piece finely chopped
+536,garlic,51,2 cloves peeled and chopped
+537,tomatoes,51,800g peeled and chopped 
+538,lemon juice,51,2 tbsp
+539,caster sugar,51,1 tsp
+540,vine leaves,51,50
+541,fennel bulb,51,1 large
+542,lamb mince,51,400g
+543,onion,51,1 medium
+544,potato,51,1 small peeled and coarsely grated
+545,basmati rice,51,2 tbsp
+546,chopped parsley,51,2 tbsp
+547,coriander,51,2 tbsp chopped
+548,lemon juice,51,1 tbsp
+549,garlic,51,2 cloves
+550,clove,51,½ tsp ground
+551,cinnamon,51,½ tsp ground 
+552,tomatoes,51,2 medium
+553,Cashew nuts,52,12
+554,Khus khus,52,½ tbsp
+555,Cumin seeds,52,½ tbsp
+556,Onions,52,3 sliced thinly
+557,Ginger garlic paste,52,2 tsp
+558,Garlic,52,4 whole
+559,Mint,52,Leaves
+560,Cilantro,52,Leaves
+561,Saffron,52,½ tsp dissolved in ½ cup warm milk
+562,Ghee,52,2 tbsp
+563,Basmati rice,52,2 Cups
+564,Full fat yogurt,52,½ cup
+565,Cumin Seeds,52,1 tbsp
+566,Bay leaf,52,½
+567,Cinnamon,52,1 thin piece
+568,Cloves,52,3
+569,Cardamom,52,2
+570,Lamb,52,1 lb
+571,Red Chilli powder,52,1 tsp
+572,Biryani masala,52,1 tbsp
+573,Onion,53,2 quartered
+574,Sunflower Oil,53,4 tbsp
+575,Garlic,53,4 cloves
+576,Ginger,53,Thumb sized peeled and very finely grated
+577,Madras Paste,53,2 tbsp
+578,Paprika,53,2 tsp
+579,cinnamon stick,53,1
+580,Cardamom,53,6 bashed to break shells
+581,Clove,53,4
+582,Bay Leaf,53,2
+583,Tomato Purée,53,1 tbsp
+584,Lamb,53,1kg cubed
+585,Greek yogurt,53,150ml
+586,Coriander,53,Garnish chopped 
+587,Olive Oil,54,1 tbsp
+588,red chili,54,1 finely sliced
+589,Thai red curry paste,54,2 ½ tbsp
+590,vegetable stock cube,54,1
+591,coconut milk,54,400ml can
+592,fish sauce,54,2 tsp
+593,rice noodles,54,100g
+594,lime,54,"2 juice of 1, the other halved"
+595,king prawns,54,150g
+596,coriander,54,½ small pack
+597,Olive Oil,55,2 tblsp 
+598,Onion,55,1 finely sliced
+599,Carrots,55,2 chopped
+600,Lamb Leg,55,500g
+601,Garlic,55,2 cloves minced
+602,Cumin,55,½ tsp
+603,Ginger,55,½ tsp
+604,Saffron,55,¼ tsp
+605,Cinnamon,55,1 tsp 
+606,Honey,55,1 tblsp 
+607,Apricot,55,100g 
+608,Vegetable Stock Cube,55,1
+609,Butternut Squash,55,1 medium chopped
+610,Couscous,55,Steamed
+611,Parsley,55,Chopped
+612,Olive Oil,56,1 tblsp 
+613,Bacon,56,2
+614,Onion,56,1 finely chopped 
+615,Celery,56,1 Stick
+616,Carrots,56,1 medium
+617,Garlic,56,2 cloves chopped
+618,Minced Beef,56,500g
+619,Tomato Puree,56,1 tbls
+620,Chopped Tomatoes,56,800g
+621,Honey,56,1 tblsp 
+622,Lasagne Sheets,56,500g
+623,Creme Fraiche,56,400ml
+624,Mozzarella Balls,56,125g
+625,Parmesan Cheese,56,50g
+626,Basil Leaves,56,Topping
+627,Lamb Shoulder,57,500g
+628,Flour,57,1 tbls
+629,Vegetable Oil,57,Dash
+630,Onion,57,1 sliced
+631,Carrots,57,2 sliced
+632,Vegetable Stock,57,350ml/12fl
+633,Potatoes,57,500g
+634,Shortcrust Pastry,57,450g
+635,Eggs,57,To Glaze
+636,Butter,58,100g 
+637,Lamb,58,900g
+638,Lamb Kidney,58,3
+639,Onions,58,2 medium
+640,Carrots,58,4 sliced
+641,Plain Flour,58,25g
+642,Worcestershire Sauce,58,2 tsp
+643,Chicken Stock,58,500ml
+644,Bay Leaves,58,2
+645,Potatoes,58,900g
+646,Olive Oil,59,2 tbs
+647,Onion,59,1 medium finely diced
+648,Chickpeas,59,250g
+649,Vegetable Stock,59,1.5L
+650,Cumin,59,1 tsp 
+651,Garlic,59,5 cloves
+652,Salt,59,1/2 tsp
+653,Harissa Spice,59,1 tsp 
+654,Pepper,59,Pinch
+655,Lime,59,1/2 
+656,Sour Cream,60,1/4 cup
+657,Chopped Onion,60,2 tbs
+658,Dried Oregano,60,1/2 tbs
+659,Salt,60,1/4 tsp
+660,Bread,60,8 slices
+661,Bacon,60,8 slices
+662,Tomato,60,8 slices
+663,Mozzarella,60,4 slices
+664,Butter,60,2 1/2 Tbs
+665,Garlic,61,2 cloves
+666,Sea Salt,61,2 tsp
+667,Olive Oil,61,4 tbs
+668,Lemon,61,Zest and juice of 1
+669,Dill,61,1 tbs
+670,Lamb Leg,61,750g
+671,Pita Bread,61,To serve
+672,Bulgur Wheat,62,25g
+673,Lamb Mince,62,500g
+674,Cumin,62,1 tsp 
+675,Coriander,62,1 tsp 
+676,Paprika,62,1 tsp 
+677,Garlic,62,1 clove finely chopped
+678,Olive Oil,62,For frying
+679,Bun,62,4
+680,Cucumber,62,Grated
+681,Greek Yogurt,62,200g
+682,Mint,62,2 tbs
+683,Raw king prawns,63,500g
+684,Olive oil,63,3 tablespoons
+685,Chopped onion,63,1
+686,Freshly chopped parsley,63,pinch
+687,White wine,63,250ml
+688,Chopped tomatoes,63,1 (400g) tin
+689,Minced garlic,63,1/2 teaspoon
+690,Cubed Feta cheese,63,1 (200g) pack
+691,Macaroni,64,8 ounces (230 grams)
+692,Plain Flour,64,1/3 cup
+693,Mustard Powder,64,3/4 teaspoon
+694,Garlic powder,64,1/2 teaspoon
+695,Kosher salt,64,1/2 teaspoon
+696,Black pepper,64,1/2 teaspoon
+697,Cayenne pepper,64,1/8 teaspoon
+698,Butter,64,6 tablespoons (85 grams)
+699,Whole Milk,64,1 1/2 cups (360 milliliters)
+700,Heavy Cream,64,1 cup (240 milliliters)
+701,Monterey Jack Cheese,64,1 pound (455 grams) 
+702,Butter,64,4 tablespoons (55 grams)
+703,garlic powder,64,1 teaspoon
+704,Bread,64,16 slices square
+705,Cheddar Cheese,64,8 slices mild
+706,Colby Jack Cheese,64,8 slices
+707,Butter,64,4 tablespoons (55 grams)
+708,Chicken Breast,65,1 1/2 
+709,Plain Flour,65,3/4 cup 
+710,Egg,65,1
+711,Starch,65,2 tbs
+712,Baking Powder,65,1 tbs
+713,Salt,65,1 tsp 
+714,Onion Salt,65,1/2 tsp
+715,Garlic Powder,65,1/4 tsp
+716,Water,65,3/4 cup 
+717,Chicken Stock,65,1/2 cup 
+718,Duck Sauce,65,1/4 cup
+719,Soy Sauce,65,3 tbs
+720,Honey,65,2 tbs
+721,Rice Vinegar,65,1 tbs
+722,Sesame Seed Oil,65,2 tbs
+723,Gochujang,65,1/2 tbs
+724,Starch,65,2 tbs
+725,Garlic,65,1 clove
+726,Spring Onions,65,2 chopped
+727,Ginger,65,1 tsp 
+728,Butter Beans,66,400g
+729,Olive Oil,66,3 tbs
+730,Onion,66,1 chopped
+731,Garlic Clove,66,2 chopped
+732,Tomato Puree,66,2 tbs
+733,Tomatoes,66,800g
+734,Sugar,66,1 tbs
+735,Dried Oregano,66,1 tbs
+736,Cinnamon,66,Pinch
+737,Chopped Parsley,66,2 tbs
+738,Cabbage,67,1
+739,Butter,67,2 tbs
+740,Onion,67,1 chopped
+741,Ground Beef,67,1 lb
+742,Ground Pork,67,1/2 lb
+743,Rice,67,1 1/2 cups 
+744,Garlic,67,1 tsp 
+745,Salt,67,1 tsp 
+746,Black Pepper,67,1/4 tsp
+747,Tomato Puree,67,3 cans
+748,Sardines,68,8
+749,Olive Oil,68,2 tbs
+750,Garlic,68,3 cloves
+751,Paprika,68,1 tbs
+752,Lemon,68,1/2 
+753,Rosemary,68,4 sprigs
+754,Red Chilli,68,1
+755,digestive biscuits,69,175g/6oz
+756,butter,69,75g/3oz
+757,Bramley apples,69,200g/7oz
+758,"butter, softened",69,75g/3oz
+759,caster sugar,69,75g/3oz
+760,"free-range eggs, beaten",69,2
+761,ground almonds,69,75g/3oz
+762,almond extract,69,1 tsp
+763,flaked almonds,69,50g/1¾oz
+764,Plain Flour,70,120g
+765,Caster Sugar,70,60g
+766,Butter,70,60g
+767,Braeburn Apples,70,300g
+768,Butter,70,30g
+769,Demerara Sugar,70,30g
+770,Blackberrys,70,120g
+771,Cinnamon,70,¼ teaspoon
+772,Ice Cream,70,to serve
+773,Milk,71,200ml
+774,Oil,71,60ml
+775,Eggs,71,2
+776,Flour,71,1600g
+777,Baking Powder,71,3 tsp
+778,Salt,71,1/2 tsp
+779,Unsalted Butter,71,25g
+780,Sugar,71,45g
+781,Peanut Butter,71,3 tbs
+782,Chicken Thighs,72,6
+783,Challots,72,16
+784,Ginger,72,1 1/2 
+785,Garlic Clove,72,6
+786,Cayenne Pepper,72,8
+787,Turmeric,72,2 tbs
+788,Cumin,72,1 1/2 
+789,Coriander,72,1 1/2 
+790,Fennel,72,1 1/2 
+791,Tamarind Paste,72,2 tbs
+792,Coconut Milk,72,1 can 
+793,Sugar,72,1 tsp 
+794,Water,72,1 cup 
+795,Udon Noodles,73,250g
+796,Sesame Seed Oil,73,2 tbs
+797,Onion,73,1 sliced
+798,Cabbage,73,0.25
+799,Shiitake Mushrooms,73,10
+800,Spring Onions,73,4
+801,Mirin,73,4 tbsp
+802,Soy Sauce,73,2 tbs
+803,Caster Sugar,73,1 tblsp 
+804,Worcestershire Sauce,73,1 tblsp 
+805,strawberries,74,500g
+806,double cream,74,400ml
+807,meringue nests,74,3 x 7.5cm
+808,ginger cordial,74,1 tbsp
+809,Mint,74,sprigs of fresh
+810,Butter,75,250g
+811,Plain Flour,75,350g
+812,Lemon,75,Juice of 1/2
+813,Butter,75,25g
+814,Currants,75,200g
+815,Mixed Peel,75,50g
+816,Muscovado Sugar,75,100g 
+817,Cinnamon,75,1 tsp 
+818,Ginger,75,1 tsp 
+819,Allspice,75,1 tsp 
+820,Lemon,75,Zest of 1
+821,Eggs,75,1 beaten
+822,Sugar,75,spinkling
+823,Sausages,76,2
+824,Bacon,76,3
+825,Mushrooms,76,2
+826,Tomatoes,76,2
+827,Black Pudding,76,1 Slice
+828,Eggs,76,2
+829,Bread,76,1 Slice
+830,Red Snapper,77,2 Pounds
+831,Vegetable Oil,77,1/2 cup 
+832,Garlic,77,1 clove peeled crushed
+833,Ginger,77,1/2 tsp
+834,Thyme,77,2 sprigs
+835,Bay Leaf,77,1
+836,Red Pepper,77,0.5
+837,Yellow Pepper,77,0.5
+838,Onion,77,1 sliced
+839,Carrots,77,1 chopped
+840,Sugar,77,1 tbs
+841,Allspice,77,1/2 tsp
+842,Worcestershire Sauce,77,1 tsp 
+843,Scotch Bonnet,77,1
+844,Lime,77,1
+845,Malt Vinegar,77,3/4 cup 
+846,Pepper,77,pinch
+847,Chicken Stock,78,3 cups 
+848,Salt,78,1/4 tsp
+849,Sugar,78,1/4 tsp
+850,Pepper,78,pinch
+851,Sesame Seed Oil,78,1 tsp 
+852,Peas,78,1/3 cup
+853,Mushrooms,78,1/3 cup
+854,Cornstarch,78,1 tbs
+855,Water,78,2 tbs
+856,Spring Onions,78,1/4 cup
+857,Beef,79,1lb
+858,Onion,79,1
+859,Chicken Stock Cube,79,1
+860,Tomatoes,79,2
+861,Garlic Clove,79,4
+862,Tomato Puree,79,1 tbs
+863,Rice,79,2 cups 
+864,Noodles,79,1/4 cup
+865,Butter,79,1/4 cup
+866,Olive Oil,79,2 cups 
+867,Pita Bread,79,1
+868,Cumin,79,1 tbs
+869,White Wine Vinegar,79,3 tbs
+870,Salt,79,To taste
+871,Pepper,79,To taste
+872,olive oil,80,2½ tbsp
+873,Italian fennel sausages,80,6 cut into 1.5cm-thick slices
+874,onion,80,1 large peeled and chopped
+875,fennel bulb,80,1 trimmed and roughly chopped; reserve any fronds to garnish
+876,smoky paprika,80,½ tsp
+877,garlic,80,"1 clove, peeled and sliced"
+878,fennel seeds,80,2 tsp lightly toasted and then gently crushed
+879,red wine,80,100ml
+880,chopped tomatoes,80,400g tinned
+881,caster sugar,80,½ tsp
+882,pitted black olives,80,50g cut in half lengthways
+883,rigatoni,80,500g
+884,pecorino,80,30g roughly crumbled into 0.5cm pieces
+885,anchovy fillet,80,1  rinsed and patted dry
+886,garlic,80,"1 clove, peeled and crushed"
+887,olive oil,80,60ml
+888,basil leaves,80,50g torn
+889,Miniature Marshmallows,81,2 cups
+890,Chocolate Chips,81,3 cups
+891,Peanut Butter,81,½ cup
+892,Vanilla Extract,81,1 tsp
+893,Peanuts,81,1 ¼ cups
+894,Mackerel,82,4
+895,Red Chili,82,18 dried
+896,Ginger,82,1 inch
+897,Garlic,82,8 cloves
+898,Pepper,82,1.5 tsp
+899,Cumin,82,1 tsp
+900,Turmeric,82,½ tsp
+901,Cinnamon stick,82,""
+902,Clove,82,4
+903,Cardamom,82,2
+904,Sugar,82,1 tbsp
+905,Tamarind ball,82,2 marble sized
+906,Vinegar,82,2.5 tbsp
+907,Oil,82,for frying
+908,Olive Oil,83,5 tablespoons
+909,Onion,83,1 chopped
+910,Carrot,83,1 chopped
+911,Celery,83,1 stalk chopped
+912,Garlic,83,1 tablespoon minced
+913,Cannellini Beans,83,2 cups
+914,Canned tomatoes,83,1
+915,Water,83,4 cups
+916,Rosemary,83,1 fresh sprig
+917,Thyme,83,1 fresh sprig
+918,Kale,83,1 pound chopped
+919,Wholegrain Bread,83,4 thick slices
+920,Red Onion,83,1 thinly sliced
+921,Parmesan,83,½ cup freshly grated
+922,Olive Oil,84,2 tablespoons
+923,Carrots,84,2 small cut into chunks
+924,Celery,84,2 small stalks
+925,Onion,84,1 medium finely diced
+926,Garlic,84,6 medium cloves sliced
+927,Brown Lentils,84,12 ounces (340g)
+928,Bay Leaves,84,2
+929,Water,84,4 cups
+930,Salt,84,Pinch
+931,Apple Cider Vinegar,84,2 teaspoons (10ml)
+932,Pepper,84,Pinch
+933,Egg Plants,84,2 large
+934,Rosemary,84,4 sprigs
+935,Pine nuts,84,1/4 cup 
+936,Parsley,84,2 tablespoons
+937,Self-raising Flour,85,225g
+938,Caster Sugar,85,75g
+939,Baking Powder,85,1 tsp 
+940,Butter,85,125g
+941,Dried Fruit,85,150g
+942,Eggs,85,1
+943,Milk,85,1 tbs
+944,Vanilla Extract,85,2 tsp
+945,Aubergine,86,2 large
+946,Courgettes,86,4
+947,Yellow Pepper,86,2
+948,Tomato,86,4 large
+949,Olive Oil,86,5 tbs
+950,Basil,86,Bunch
+951,Onion,86,1 medium
+952,Garlic Clove,86,3 finely chopped
+953,Red Wine Vinegar,86,1 tsp 
+954,Sugar,86,1 tsp 
+955,Butter,87,2 tbs
+956,Onions,87,2 chopped
+957,Chicken Stock,87,4 qt 
+958,Chicken Breast,87,1.5kg
+959,Potatoes,87,4kg
+960,Salt,87,2 tbs
+961,Black Pepper,87,1tbsp
+962,Kidney Beans,88,2 cups 
+963,Carrots,88,1 large
+964,Spring Onions,88,2 chopped
+965,Thyme,88,4 sprigs
+966,Onion,88,1 Diced
+967,Black Pepper,88,1/2 tsp
+968,Red Pepper,88,2 chopped
+969,Garlic Clove,88,4 Mashed
+970,Allspice,88,1 tbs
+971,Beef,88,2 Lbs
+972,Water,88,2L
+973,Potatoes,88,4
+974,Plain Flour,88,1 cup 
+975,Water,88,1/4 cup
+976,Coconut Milk,88,1 cup 
+977,Baby Aubergine,89,6 small
+978,Fennel,89,4 small
+979,Red Pepper,89,1 thinly sliced
+980,Courgettes,89,1 medium
+981,Onion,89,1 finely chopped 
+982,Paella Rice,89,300g
+983,Paprika,89,1 tsp 
+984,Saffron,89,pinch
+985,White Wine,89,200ml
+986,Vegetable Stock,89,700ml
+987,Frozen Peas,89,100g 
+988,Lemon,89,1 chopped
+989,Parsley,89,Handful
+990,Salt,89,pinch
+991,Black Pepper,89,pinch
+992,Chicken Legs,90,4 Chopped
+993,Onions,90,2 large
+994,Carrots,90,5 chopped
+995,Leek,90,1 chopped
+996,Celery,90,1 small
+997,Cabbage,90,1/4 
+998,Cloves,90,1 whole
+999,Allspice,90,1tsp
+1000,Bay Leaf,90,2
+1001,Parsley,90,4 sprigs
+1002,Dill,90,4 sprigs
+1003,Pepper,90,1 tsp 
+1004,Salt,90,1 tbs
+1005,Butter,91,1 cup 
+1006,Egg Yolks,91,3
+1007,Cream Cheese,91,8 oz 
+1008,Baking Powder,91,1 tsp 
+1009,Flour,91,3 cups 
+1010,Jam,91,1 Jar
+1011,Minced Beef,92,1/4 lb
+1012,Onion,92,1
+1013,Eggs,92,3
+1014,Chilli,92,1 tbs
+1015,Baguette,92,1/2 
+1016,Salt,92,To taste
+1017,Pepper,92,To taste
+1018,Mayonnaise,92,Top
+1019,Fries,93,250 Grams
+1020,Doner Meat,93,500 Grams
+1021,Garlic sauce,93,Topping
+1022,Hotsauce,93,Topping
+1023,Lettuce,93,1 Bulb
+1024,Tomato,93,1
+1025,Cucumber,93,3rd
+1026,Gouda cheese,93,100 Grams
+1027,Chicken,94,1 whole
+1028,Oil,94,2 quarts neutral frying
+1029,Egg White,94,1
+1030,Flour,94,1 1/2 cups 
+1031,Brown Sugar,94,1 tablespoon
+1032,Salt,94,1 tablespoon
+1033,paprika,94,1 tablespoon
+1034,onion salt,94,2 teaspoons
+1035,chili powder,94,1 teaspoon
+1036,black pepper,94,1 teaspoon
+1037,celery salt,94,1/2 teaspoon
+1038,sage,94,1/2 teaspoon
+1039,garlic powder,94,1/2 teaspoon
+1040,allspice,94,1/2 teaspoon
+1041,oregano,94,1/2 teaspoon
+1042,basil,94,1/2 teaspoon
+1043,marjoram,94,1/2 teaspoon
+1044,chicken breast,95,4 pounded to 1cm thickness
+1045,plain flour,95,2 tablespoons
+1046,egg,95,1 beaten
+1047,breadcrumbs,95,100g fine
+1048,vegetable oil,95,230ml frying
+1049,sunflower oil,95,2 tablespoons
+1050,onions,95,2 sliced
+1051,garlic,95,5 chopped cloves
+1052,carrot,95,2 sliced
+1053,plain flour,95,2 tablespoons
+1054,curry powder,95,4 teaspoons
+1055,chicken stock,95,600ml
+1056,honey,95,2 teaspoons
+1057,soy sauce,95,4 teaspoons
+1058,bay leaf,95,1
+1059,garam masala,95,1 teaspoon
+1060,Digestive Biscuits,96,300g
+1061,Butter,96,150g
+1062,Condensed Milk,96,400g
+1063,Egg Yolks,96,3
+1064,Lime,96,4
+1065,Double Cream,96,300ml 
+1066,Icing Sugar,96,1 tbls
+1067,Lime,96,to serve
+1068,Vegetable Oil,97,1 tbls
+1069,Onion,97,1 finely chopped 
+1070,Garlic,97,2 cloves chopped
+1071,Ginger,97,1 part 
+1072,Coriander,97,1 Packet
+1073,Cumin,97,1 tsp 
+1074,Paprika,97,1 tsp 
+1075,Garam Masala,97,2 tsp
+1076,Chopped Tomatoes,97,400g
+1077,Kidney Beans,97,400g
+1078,Basmati Rice,97,to serve
+1079,Smoked Haddock,98,300g
+1080,Bay Leaves,98,2
+1081,Milk,98,300ml 
+1082,Eggs,98,4
+1083,Parsley,98,Handful
+1084,Coriander,98,Handful
+1085,Vegetable Oil,98,2 tbs
+1086,Onion,98,1 chopped
+1087,Coriander,98,1 tsp 
+1088,Curry Powder,98,2 tsp
+1089,Rice,98,300g
+1090,Sake,99,2 tbs
+1091,Soy Sauce,99,2 tbs
+1092,Sesame Seed Oil,99,2 tbs
+1093,Corn Flour,99,2 tbs
+1094,Water,99,2 tbs
+1095,Chicken,99,500g
+1096,Chilli Powder,99,1 tbs
+1097,Rice Vinegar,99,1 tsp 
+1098,Brown Sugar,99,1 tbs
+1099,Spring Onions,99,4 Chopped
+1100,Garlic Clove,99,6 cloves
+1101,Water Chestnut,99,220g
+1102,Peanuts,99,100g 
+1103,Prawns,100,400g
+1104,Soy Sauce,100,2 tbs
+1105,Tomato Puree,100,1 tsp 
+1106,Corn Flour,100,1 tsp 
+1107,Caster Sugar,100,1 tsp 
+1108,Sunflower Oil,100,1 tsp 
+1109,Peanuts,100,85g
+1110,Chilli,100,3 Large
+1111,Brown Sugar,100,1 tbs
+1112,Garlic Clove,100,6 cloves
+1113,Water Chestnut,100,450g
+1114,Ginger,100,to taste
+1115,Potatoes,101,5 Large
+1116,Olive Oil,101,2 tbs
+1117,Green Pepper,101,1
+1118,Onions,101,5
+1119,Ras el hanout,101,1 tbs
+1120,Pumpkin,101,500g
+1121,Eggs,101,24 Skinned
+1122,Salt,101,Pinch
+1123,Pepper,101,Pinch
+1124,Olive Oil,102,4 tbs
+1125,Lamb,102,750g
+1126,Saffron,102,1 1/2 tsp 
+1127,Onion,102,1 Large Chopped
+1128,Water,102,25 ml
+1129,Parsley,102,30g
+1130,Butter,102,1 tbs
+1131,Lemon,102,1
+1132,Potatoes,103,2 large
+1133,Butter,103,2 tbs
+1134,Cheese,103,150g
+1135,Onion,103,1 large
+1136,Red Pepper,103,1 large
+1137,Red Chile Flakes,103,Pinch
+1138,Yeast,104,1/4 ounce
+1139,Water,104,1/4 cup
+1140,Water,104,1 1/2 cups 
+1141,Sugar,104,1/2 cup 
+1142,Salt,104,1 tsp 
+1143,Eggs,104,2
+1144,Shortening,104,1/3 cup
+1145,Flour,104,5 drops
+1146,Canola Oil,104,Sprinking
+1147,Milk,104,1/2 cup
+1148,Sugar,104,2 cups 
+1149,Vanilla,104,1 1/2 cups 
+1150,Boiling Water,104,6 tablespoons
+1151,Butter,104, 1/3 cup
+1152,Brown Lentils,105,1 1/2 cups 
+1153,Rice,105,1 1/2 cups 
+1154,Coriander,105,1/2 tsp
+1155,Macaroni,105,2 cups 
+1156,Chickpeas,105,Can
+1157,Onion,105,1 large
+1158,Salt,105,Sprinking
+1159,Vegetable Oil,105,1/2 cup 
+1160,Veal,106,4 meaty shanks
+1161,Flour,106,½ cup
+1162,Olive Oil,106,2 tablespoons 
+1163,Butter,106,3 tablespoons
+1164,Onion,106,1 medium chopped into ½-inch pieces
+1165,Carrot,106,1 chopped into ½-inch pieces
+1166,Celery,106,1 chopped into ½-inch pieces
+1167,Fennel,106,1 bulb chopped into ½-inch pieces
+1168,Garlic,106,3 cloves
+1169,Orange Zest,106,2 strips
+1170,Marjoram,106,1 ½ teaspoons
+1171,Bay Leaf,106,1
+1172,Dry White Wine,106,1 cup
+1173,Chicken Stock,106,½ cup 
+1174,Tomatoes,106,1 cup chopped with juice
+1175,Parsley,106,2 tablespoons chopped
+1176,Garlic,106,1 teaspoon minced
+1177,Lemon Zest,106,1 teaspoon grated 
+1178,Oxtail,107,450g
+1179,Onion,107,1 chopped
+1180,Spring Onions,107,1
+1181,Garlic,107,2 cloves minced
+1182,Ginger,107,1 tsp 
+1183,Scotch Bonnet,107,1 chopped
+1184,Soy Sauce,107,2 tbs
+1185,Fresh Thyme,107,1 chopped
+1186,Vegetable Oil,107,2 tbs
+1187,Water,107,350ml
+1188,Broad Beans,107,200g
+1189,Corn Flour,107,1 tbs
+1190,Water,107,2 tbs
+1191,rice stick noodles,108,6oz/180g
+1192,dark soy sauce,108,2 tbsp
+1193,oyster sauce,108,2 tbsp
+1194,soy sauce,108,2 tsp
+1195,white vinegar,108,2 tsp
+1196,sugar,108,2 tsp
+1197,water,108,2 tbsp
+1198,peanut oil,108,2 tbsp
+1199,garlic,108,2 cloves
+1200,Chicken,108,1 cup
+1201,Egg,108,1
+1202,Chinese broccoli,108,4 cups
+1203,Potatoes,109,800g
+1204,Onions,109,3
+1205,Olive Oil,109,2 tblsp
+1206,Chicken Stock,109,100ml
+1207,Creme Fraiche,109,1 pot
+1208,Parmesan,109,Topping
+1209,Chicken Breasts,109,4
+1210,Bacon,109,4
+1211,Spinach,109,Topping
+1212,Peas,109,Topping
+1213,Vegetable Oil,110,Dash
+1214,Beef Gravy,110,1 Can
+1215,Potatoes,110,5 thin cut
+1216,Cheese Curds,110,2 cups
+1217,Spaghetti,111,300g
+1218,Olive Oil,111,1 tbls
+1219,Onion,111,1 finely chopped 
+1220,Garlic,111,2 cloves minced
+1221,Red Chilli,111,1
+1222,Tomato Puree,111,1 tbls
+1223,Pilchards,111,425g
+1224,Black Olives,111,70g
+1225,Parmesan,111,Shaved
+1226,Goose Fat,112,4 tbsp
+1227,Pork,112,350g
+1228,Onion,112,1 large
+1229,Garlic,112,10
+1230,Carrots,112,1 thinly sliced
+1231,Fennel Seeds,112,1 tsp 
+1232,Red Wine Vinegar,112,2 tblsp 
+1233,Vegetable Stock,112,600ml
+1234,Tomato Puree,112,1 tblsp 
+1235,Rosemary,112,2 sticks
+1236,Parsley,112,Handful
+1237,Haricot Beans,112,400g
+1238,Breadcrumbs,112,2 tblsp 
+1239,Oil,112,drizzle
+1240,Bread,112,to serve
+1241,Broccoli,112,to serve
+1242,Flour,113,100g 
+1243,Eggs,113,2 large
+1244,Milk,113,300ml 
+1245,Sunflower Oil,113,1 tbls
+1246,Sugar,113,to serve
+1247,Raspberries,113,to serve
+1248,Blueberries,113,to serve
+1249,Pumpkin,114,750g
+1250,Shortcrust Pastry,114,350g
+1251,Plain Flour,114,Dusting
+1252,Caster Sugar,114,140g
+1253,Salt,114,½ tsp
+1254,Nutmeg,114,½ tsp
+1255,Cinnamon,114,1 tsp 
+1256,Eggs,114,2 Beaten 
+1257,Butter,114,25g
+1258,Milk,114,175g
+1259,Icing Sugar,114,1 tblsp 
+1260,Butter,115,50g
+1261,Peanut Cookies,115,175g
+1262,Gelatine Leafs,115,5
+1263,Ricotta,115,500g
+1264,Peanut Butter,115,175g
+1265,Golden Syrup,115,175g
+1266,Milk,115,150ml
+1267,Double Cream,115,275ml
+1268,Light Brown Soft Sugar,115,2 tblsp 
+1269,Peanut Brittle,115,Crushed
+1270,Corn Flour,116,1 tsp 
+1271,Orange,116,Juice of 2
+1272,Orange,116,Zest of 1
+1273,Caster Sugar,116,2 tbs
+1274,Peaches,116,6
+1275,Blueberries,116,250g
+1276,Self-raising Flour,116,200g
+1277,Butter,116,50g
+1278,Muscovado Sugar,116,100g 
+1279,Cinnamon,116,1 tsp 
+1280,Milk,116,6 tblsp
+1281,Butter,117,200g
+1282,Egg,117,1 large
+1283,Milk,117,4 tbs
+1284,Golden Syrup,117,200g
+1285,Black Treacle,117,85g
+1286,Brown Sugar,117,85g
+1287,Oatmeal,117,100g 
+1288,Self-raising Flour,117,250g
+1289,Ground Ginger,117,1 tbs
+1290,Pears,118,8
+1291,Caster Sugar,118,100g 
+1292,Butter,118,100g 
+1293,Star Anise,118,2
+1294,Cardamom,118,3 Pods
+1295,Cinnamon,118,1 large
+1296,Brandy,118,2 tbs
+1297,Puff Pastry,118,500g
+1298,Eggs,119,10
+1299,Olive Oil,119,1 tbs
+1300,Courgettes,119,2 finely chopped
+1301,Spring Onions,119,3 finely chopped
+1302,Red Pepper,119,4
+1303,Garlic Clove,119,1 clove peeled crushed
+1304,Red Chilli,119,1
+1305,Cream Cheese,119,300g
+1306,Milk,119,6 tblsp
+1307,Chives,119,4 tbs
+1308,Basil,119,2 tbs
+1309,Rocket,119,to serve
+1310,Parmesan,119,to serve
+1311,Tiger Prawns,120,450g
+1312,Olive Oil,120,4 tbs
+1313,Onion,120,1 large
+1314,Fennel,120,1 large
+1315,Carrots,120,2 chopped
+1316,Dry White Wine,120,150ml
+1317,Brandy,120,1 tbs
+1318,Chopped Tomatoes,120,400g
+1319,Fish Stock,120,1L
+1320,Paprika,120,2 pinches
+1321,Double Cream,120,150ml
+1322,Prawns,120,8
+1323,Potatoes,121,4 cups 
+1324,Butter,121,60ml
+1325,Milk,121,½ cup 
+1326,Minced Beef,121,450g
+1327,Onion,121,1 finely chopped 
+1328,Creamed Corn,121,500ml
+1329,Paprika,121,to taste
+1330,Parsley,121,to taste
+1331,Salt,121,Dash
+1332,Pepper,121,Dash
+1333,Butter,122,½ cup 
+1334,Sugar,122,1 cup 
+1335,Eggs,122,2
+1336,Vanilla Extract,122,1 tsp 
+1337,Flour,122,2 cups 
+1338,Baking Powder,122,1 tsp 
+1339,Milk,122,1 1/4 cup
+1340,Maple Syrup,122,1 1/2 cup 
+1341,Brown Sugar,122,1 1/2 cup 
+1342,Single Cream,122,1 1/2 cup 
+1343,Butter,122,1/3 cup
+1344,Peanut Butter,123,1 cup 
+1345,Sugar,123,1/2 cup 
+1346,Egg,123,1
+1347,Water,124,150ml
+1348,Sugar,124,1 tsp 
+1349,Yeast,124,15g
+1350,Plain Flour,124,225g
+1351,Salt,124,1 1/2 tsp 
+1352,Olive Oil,124,Drizzle
+1353,Passata,124,80g
+1354,Mozzarella,124,70g
+1355,Oregano,124,Peeled and Sliced
+1356,Basil,124,Leaves
+1357,Black Pepper,124,Pinch
+1358,Flour,125,1 cup 
+1359,Salt,125,1/4 tsp
+1360,Egg,125,1 Yolk
+1361,Egg,125,1
+1362,Butter,125,5 tbs
+1363,Butter,125,6 tblsp
+1364,Onion,125,1/3 cup
+1365,Swede,125,1/2 cup 
+1366,Beef Brisket,125,1/2 lb
+1367,Eggs,125,2 Beaten 
+1368,Salt,125,1 tsp 
+1369,Pepper,125,1/4 tsp
+1370,Butter,126,2 tbs
+1371,Chopped Onion,126,1/3 cup
+1372,Sauerkraut,126,1 1/2 cups 
+1373,Butter,126,3 tbs
+1374,Chopped Onion,126,1/2 cup 
+1375,Potatoes,126,2 cups 
+1376,Eggs,126,3
+1377,Sour Cream,126,1 pot
+1378,Flour,126,3 cups 
+1379,Salt,126,1/4 tsp
+1380,Baking Powder,126,1 tbs
+1381,Flour,127,1 cup 
+1382,Eggs,127,2
+1383,Milk,127,1 cup 
+1384,Water,127,3/4 cup 
+1385,Salt,127,Pinch
+1386,Sugar,127,1 tsp 
+1387,Butter,127,3 tbs
+1388,Chicken,128,1.5kg
+1389,Red Chilli,128,3 chopped
+1390,Garlic,128,2 cloves
+1391,Ginger,128,1 tsp 
+1392,Dried Oregano,128,1 tsp 
+1393,Coriander,128,1 tsp 
+1394,Paprika,128,1 tsp 
+1395,Red Wine Vinegar,128,2 tbs
+1396,Oil,128,2 tbs
+1397,Red Onions,128,1 sliced
+1398,Carrots,128,2
+1399,Beetroot,128,1
+1400,Cabbage,128,4 leaves
+1401,Mayonnaise,128,2 tbs
+1402,Greek Yogurt,128,2 tbs
+1403,Red Wine Vinegar,128,2 tbs
+1404,Cumin Seeds,128,1 tsp 
+1405,Garlic,129,1 clove
+1406,Beef Fillet,129,2 small
+1407,Olive Oil,129,2 tbs
+1408,Vinegar,129,1 tbs
+1409,Parsley,129,Leaves
+1410,Ciabatta,129,2
+1411,Rocket,129,2 handfulls
+1412,Basil Leaves,129,Small bunch
+1413,Parsley,129,Small bunch
+1414,Jalapeno,129,1
+1415,Vinegar,129,1 tbs
+1416,Spring Onions,129,2 chopped
+1417,Garlic,129,1/2 
+1418,Caster Sugar,129,1/2 tsp
+1419,Pork,130,2
+1420,White Wine,130,200ml
+1421,Paprika,130,1/2 tsp
+1422,Lemon,130,2
+1423,Lemon Juice,130,1/2 
+1424,Olive Oil,130,Dash
+1425,Mayonnaise,130,To serve
+1426,Potatoes,130,1 kg
+1427,Vegetable Oil,130,For frying
+1428,Onions,131,2 finely chopped
+1429,Red Pepper,131,1 Diced
+1430,Coriander,131,Small bunch
+1431,Red Chilli,131,1 small
+1432,Garlic,131,3 cloves
+1433,Dry White Wine,131,400ml
+1434,Saffron,131,Pinch
+1435,Bay Leaf,131,1
+1436,Potatoes,131,300g
+1437,Plum Tomatoes,131,400g
+1438,Cod,131,600g
+1439,Squid,131,300g
+1440,Tiger Prawns,131,8
+1441,Clams,131,500g
+1442,Mussels,131,500g
+1443,Baguette,131,1 sliced
+1444,Plain Flour,132,2 tbs
+1445,Icing Sugar,132,2 tbs
+1446,Puff Pastry,132,375g
+1447,Caster Sugar,132,250g
+1448,Lemon Zest,132,2 strips
+1449,Cinnamon,132,1 Stick
+1450,Eggs,132,2
+1451,Egg Yolks,132,4
+1452,Corn Flour,132,50g
+1453,Whole Milk,132,500ml
+1454,Vanilla,132,Pod of
+1455,Cinnamon,132,To serve
+1456,Butter,133,50g
+1457,Self-raising Flour,133,250g
+1458,Vanilla,133,1 small
+1459,Suet,133,50g
+1460,Milk,133,150ml
+1461,Raspberry Jam,133,100g 
+1462,Custard,133,to serve
+1463,Chicken Thighs,134,12
+1464,Lime,134,1/2 
+1465,Spring Onions,134,1  bunch
+1466,Ginger,134,1 tbs chopped
+1467,Garlic,134,3 cloves
+1468,Onion,134,1/2 
+1469,Red Chilli,134,3 chopped
+1470,Thyme,134,1/2 teaspoon
+1471,Lime,134,Juice of 1
+1472,Soy Sauce,134,2 tbs
+1473,Vegetable Oil,134,2 tbs
+1474,Brown Sugar,134,3 tbs
+1475,Allspice,134,1 tbs
+1476,Basmati Rice,134,200g
+1477,Coconut Milk,134,400g
+1478,Spring Onions,134,1  bunch
+1479,Thyme,134,2 sprigs
+1480,Garlic,134,2 cloves chopped
+1481,Allspice,134,1 tbs
+1482,Kidney Beans,134,800g
+1483,Plain Flour,135,4 cups 
+1484,Salt,135,1 tsp 
+1485,Curry Powder,135,1 tsp 
+1486,Butter,135,250g
+1487,Water,135,1 cup 
+1488,Minced Beef,135,900g
+1489,Allspice,135,1 tsp 
+1490,Black Pepper,135,1/2 tsp
+1491,Vegetable Oil,135,2 tbs
+1492,Onions,135,1 cup 
+1493,Red Pepper,135,Ground
+1494,Garlic,135,2 tsp ground
+1495,Thyme,135,1 tbs
+1496,Salt,135,1/4 tsp
+1497,Tomato Ketchup,135,2 tbs
+1498,Water,135,2 cups 
+1499,Onions,135,1/2 cup 
+1500,Egg,135,1 beaten
+1501,Water,135,1 tbs
+1502,Water,135,1/4 cup
+1503,Sushi Rice,136,300g
+1504,Mirin,136,1 tbs
+1505,Pickle Juice,136,Garnish
+1506,Spring Onions,136,Garnish
+1507,Vegetable Oil,137,1 tbs
+1508,Onion,137,1 large
+1509,Pork,137,1 chopped
+1510,Vegetable Stock,137,150ml
+1511,Soy Sauce,137,1 tbs
+1512,Mirin,137,1 tsp 
+1513,Sugar,137,1 tsp 
+1514,Eggs,137,2 Beaten 
+1515,Sushi Rice,137,200g
+1516,Chives,137,Chopped
+1517,Floury Potatoes,138,900g
+1518,Olive Oil,138,2 tbsp
+1519,Semi-skimmed Milk,138,600ml
+1520,White Fish Fillets,138,800g
+1521,Plain flour,138,1 tbsp
+1522,Nutmeg,138,Grating
+1523,Double Cream,138,3 tbsp
+1524,Jerusalem Artichokes,138,200g
+1525,Leek,138,1 finely sliced
+1526,Prawns,138,200g peeled raw
+1527,Parsley,138,Large handful
+1528,Dill,138,Handful
+1529,Lemon,138,Grated zest of 1
+1530,Gruyère,138,25g grated
+1531,Lemon,138,Juice of 1
+1532,Olive Oil,139,3 tablespoons
+1533,Onion,139,1
+1534,Garlic,139,2 cloves
+1535,Carrot,139,1
+1536,French Lentils,139,2 1/4 cups
+1537,Thyme,139,1 teaspoon
+1538,Bay Leaf,139,3
+1539,Salt,139,1 tablespoon
+1540,Celery,139,2 sticks
+1541,Clotted Cream,140,227g
+1542,Butter,140,25g
+1543,Corn Flour,140,1 tsp 
+1544,Parmesan Cheese,140,100g 
+1545,Nutmeg,140,Grated
+1546,Fettuccine,140,250g
+1547,Parsley,140,Chopped
+1548,Sausages,141,4
+1549,Bacon,141,4
+1550,Mushrooms,141,4
+1551,Tomatoes,141,3
+1552,Black Pudding,141,2 sliced
+1553,Eggs,141,2
+1554,Bread,141,1 Slice
+1555,Baked Beans,141,100g 
+1556,Butter,142,50g
+1557,Olive Oil,142,1 tbs
+1558,Onion,142,1 kg
+1559,Sugar,142,1 tsp 
+1560,Garlic Clove,142,4 sliced
+1561,Plain Flour,142,2 tbs
+1562,Dry White Wine,142,250ml
+1563,Beef Stock,142,1L
+1564,Bread,142,4 sliced
+1565,Gruyère,142,140g
+1566,Butter,143,75g
+1567,Leek,143,1kg
+1568,Salt,143,½ tsp
+1569,Creme Fraiche,143,300ml 
+1570,Egg,143,1
+1571,Egg Yolks,143,3
+1572,Nutmeg,143,¼ teaspoon
+1573,Plain Flour,143,225g
+1574,Salt,143,½ tsp
+1575,Butter,143,60g
+1576,Lard,143,60g
+1577,Cheddar Cheese,143,50g
+1578,Water,143,2 tbs
+1579,Eggs,144,3
+1580,Butter,144,2 knobs
+1581,Parmesan,144,1 tsp 
+1582,Tarragon,144,3 chopped
+1583,Parsley,144,1 tbs chopped
+1584,Chives,144,1 tbs chopped
+1585,Gruyère,144,4 tbs
+1586,Prawns,145,6 large
+1587,Olive Oil,145,3 tbs
+1588,Dry White Wine,145,150ml
+1589,Fish Stock,145,200ml
+1590,Fennel,145,1 small finely diced
+1591,Onion,145,1 small finely diced
+1592,Garlic,145,3 cloves Chopped
+1593,Potatoes,145,1 large
+1594,Orange,145,1
+1595,Star Anise,145,1
+1596,Bay Leaf,145,1
+1597,Harissa Spice,145,1 1/2 tsp 
+1598,Tomato Puree,145,2 tbs
+1599,Chopped Tomatoes,145,400g
+1600,Mussels,145,Handful
+1601,White Fish,145,200g
+1602,Thyme,145,2
+1603,Bread,145,to serve
+1604,Potatoes,146,225g
+1605,Fennel,146,1 small
+1606,Garlic,146,1 clove finely chopped
+1607,Milk,146,75 ml 
+1608,Double Cream,146,100ml
+1609,Butter,146,For Greasing
+1610,Parmesan Cheese,146,to serve
+1611,Cream Cheese,147,1 1/4 oz 
+1612,Sugar,147,1 1/4 cup
+1613,Vanilla Extract,147,1 teaspoon
+1614,Flour,147,""
+1615,Puff Pastry,147,2
+1616,Strawberries,147,""
+1617,Raspberries,147,""
+1618,Blackberries,147,""
+1619,Chicken Breasts,148,2
+1620,Carrots,148,12 ounces
+1621,Small Potatoes,148,5
+1622,Onion,148,1
+1623,Beef Stock,148,1
+1624,Mozzarella,148,1 1/2 cup 
+1625,Sour Cream,148,2 tbsp
+1626,Butter,148, 
+1627,Sugar,148, 
+1628,Vegetable Oil,148, 
+1629,Salt,148, 
+1630,Pepper,148, 
+1631,Broad Beans,149,2 cups 
+1632,Parsley,149,1/3 cup
+1633,Olive Oil,149,Dash
+1634,Lemons,149,3
+1635,Garlic Clove,149,4
+1636,Cumin,149,Sprinking
+1637,Flour,150,4 cups 
+1638,Water,150,1 1/2 cups 
+1639,Salt,150,1/4 tsp
+1640,Unsalted Butter,150,1 cup 
+1641,Olive Oil,150,1/4 cup
+1642,Haddock,151,600g
+1643,Potatoes,151,300g
+1644,Green Chilli,151,1 chopped
+1645,Coriander,151,3 tbs
+1646,Cumin Seeds,151,1 tsp 
+1647,Pepper,151,1/2 tsp
+1648,Garlic,151,3 cloves
+1649,Ginger,151,2 pieces 
+1650,Flour,151,2 tbs
+1651,Eggs,151,3
+1652,Breadcrumbs,151,75g
+1653,Vegetable Oil,151,For frying
+1654,Sardines,152,500g
+1655,Vegetable Oil,152,Dash
+1656,Flour,152,To Glaze
+1657,Salt,152,Dash
+1658,Fettuccine,153,1 lb
+1659,Heavy Cream,153,1/2 cup 
+1660,Butter,153,1/2 cup 
+1661,Parmesan,153,1/2 cup 
+1662,Parsley,153,2 tbsp
+1663,Black Pepper,153, 
+1664,Plain chocolate,154,250g
+1665,Butter,154,175g
+1666,Milk,154,2 tablespoons
+1667,Eggs,154,5
+1668,Granulated Sugar,154,175g
+1669,Flour,154,125g
+1670,Enchilada sauce,155,14 oz jar
+1671,shredded Monterey Jack cheese,155,3 Cups
+1672,corn tortillas,155,6
+1673,chicken breasts,155,2
+1674,Flour,156,250g
+1675,Butter,156,125g
+1676,Egg,156,1
+1677,Salt,156,Pinch
+1678,Cheese,156,300g
+1679,Milk,156,100ml milk
+1680,Eggs,156,3
+1681,Parmesan Cheese,156,100g
+1682,Plum tomatoes,156,350g
+1683,White Vinegar,156,3tbsp
+1684,Honey,156,1 tbsp
+1685,Basil,156,Topping
+1686,salted butter,157,250g
+1687,dark soft brown sugar,157,225g
+1688,golden syrup,157,150g
+1689,orange,157,Zest of 1
+1690,rolled oats,157,500g
+1691,Christmas pudding,157,250g
+1692,Chicken,158,1.2 kg
+1693,Onion,158,5 thinly sliced
+1694,Tomatoes,158,2 finely chopped
+1695,Garlic,158,8 cloves chopped
+1696,Ginger paste,158,1 tbsp
+1697,Vegetable oil,158,¼ cup
+1698,Cumin seeds,158,2 tsp
+1699,Coriander seeds,158,3 tsp
+1700,Turmeric powder,158,1 tsp
+1701,Chilli powder,158,1 tsp
+1702,Green chilli,158,2
+1703,Yogurt,158,1 cup
+1704,Cream,158,¾ cup
+1705,fenugreek,158,3 tsp Dried
+1706,Garam masala,158,1 tsp
+1707,Salt,158,To taste
+1708,Butter,159,2 tablespoons
+1709,Olive Oil,159,3 tablespoons
+1710,Chicken,159,5 boneless
+1711,Salt,159,1 teaspoon
+1712,Squash,159,1 cut into 1/2-inch cubes
+1713,Broccoli,159,1 Head chopped
+1714,mushrooms,159,8-ounce sliced
+1715,Pepper,159,1 red
+1716,onion,159,1 chopped
+1717,garlic,159,3 cloves
+1718,red pepper flakes,159,1/2 teaspoon
+1719,white wine,159,1/2 cup
+1720,milk,159,1/2 cup
+1721,heavy cream,159,1/2 cup
+1722,Parmesan cheese,159,1 cup grated
+1723,bowtie pasta,159,16 ounces
+1724,Salt,159,pinch
+1725,Pepper,159,pinch 
+1726,Parsley,159,chopped
+1727,macaroni,160,500g
+1728,chicken stock,160,2 cups
+1729,heavy cream,160,1/2 cup
+1730,fajita seasoning,160,1 packet
+1731,salt,160,1 tsp
+1732,chicken breast,160,3 diced
+1733,olive oil,160,2 tbsp
+1734,onion,160,1 small finely diced
+1735,red pepper,160,2 finely diced
+1736,garlic,160,2 cloves minced
+1737,cheddar cheese,160,1 cup
+1738,parsley,160,garnish chopped
+1739,cajun,161,2 tbsp
+1740,cayenne pepper,161,1 tsp
+1741,white fish,161,4 fillets
+1742,vegetable oil,161,1 tsp
+1743,flour tortilla,161,8
+1744,avocado,161,1 sliced
+1745,little gem lettuce,161,2 shredded
+1746,spring onion,161,4 shredded
+1747,salsa,161,1 x 300ml
+1748,sour cream,161,1 pot
+1749,lemon,161,1
+1750,garlic,161,1 clove finely chopped
+1751,Chicken Breasts,162,4 - 6
+1752,Vinaigrette Dressing,162,1 bottle
+1753,Cumin,162,1½ tablespoon
+1754,Smoked Paprika,162,1 tablespoon
+1755,Garlic,162,1 teaspoon
+1756,Refried Beans,162,1 can
+1757,Hard Taco Shells,162,12
+1758,Shredded Mexican Cheese,162,2 cups
+1759,Grape Tomatoes,162,Halved
+1760,Jalapeno,162,Sliced and Seeded
+1761,Avocado,162,Peeled and Sliced
+1762,Green Salsa,162,2 tablespoons
+1763,Sour Cream,162,3 tablespoons
+1764,Milk,162,1 tablespoon
+1765,Chicken thigh,163,450 grams Boneless skin
+1766,Ginger,163,1 tablespoon
+1767,Garlic,163,1 clove
+1768,Soy sauce,163,2 tablespoons
+1769,Sake,163,1 tablespoon
+1770,Granulated sugar,163,2 teaspoon
+1771,Potato starch,163,1/3 cup
+1772,Vegetable oil,163,1/3 cup
+1773,Lemon,163,1/3 cup
+1774,Olive Oil,164,1½ tbsp
+1775,Bacon,164,3 rashers (100g) chopped dry-cured
+1776,Shallots,164,12 small
+1777,Chicken Legs,164,2 (460g)
+1778,Chicken Thighs,164,4 (650g)
+1779,Chicken Breasts,164,2 (280g)
+1780,Garlic,164,3 finely chopped
+1781,Brandy,164,3 tbsp
+1782,Red Wine,164,600ml
+1783,Chicken Stock,164,150ml
+1784,tomato puree,164,2 tsp
+1785,thyme,164,3 sprigs
+1786,Rosemary,164,2 sprigs
+1787,bay leaves,164,2
+1788,parsley,164,garnish
+1789,chestnut mushroom,164,250g
+1790,plain flour,164,2 tbsp
+1791,butter,164,1 tsp
+1792,Linguine Pasta,165,280g
+1793,Sugar Snap Peas,165,200g
+1794,Olive Oil,165,2 tblsp 
+1795,Garlic Clove,165,2 cloves chopped
+1796,Red Chilli,165,1 large
+1797,King Prawns,165,24 Skinned
+1798,Cherry Tomatoes,165,12
+1799,Basil Leaves,165,Handful
+1800,Lettuce,165,Leaves
+1801,Bread,165,to serve
+1802,Fromage Frais,165,2 tbsp
+1803,Lime,165,Grated Zest of 2
+1804,Caster Sugar,165,2 tsp
+1805,Clams,166,1½ kg
+1806,Butter,166,50g
+1807,Bacon,166,150g
+1808,Onion,166,1 finely chopped 
+1809,Thyme,166,sprigs of fresh
+1810,Bay Leaf,166,1
+1811,Plain Flour,166,1 tbls
+1812,Milk,166,150ml
+1813,Double Cream,166,150ml
+1814,Potatoes,166,2 medium
+1815,Parsley,166,Chopped
+1816,Olive Oil,167,3 tbsp
+1817,Onions,167,2 chopped
+1818,Celery,167,2 sticks
+1819,Carrots,167,300g
+1820,Potatoes,167,500g
+1821,Bay Leaf,167,4
+1822,Tomato Puree,167,5 tblsp 
+1823,Sugar,167,2 tblsp 
+1824,White Vinegar,167,2 tblsp 
+1825,Chopped Tomatoes,167,1½ kg
+1826,Passata,167,500g
+1827,Vegetable Stock Cube,167,3
+1828,Whole Milk,167,400ml
+1829,Butter,168,50g
+1830,Onion,168,1 chopped
+1831,Mushrooms,168,100g 
+1832,Plain Flour,168,40g
+1833,Chicken Stock Cube,168,1
+1834,Nutmeg,168,pinch
+1835,Mustard Powder,168,pinch
+1836,Chicken,168,250g
+1837,Sweetcorn,168,2 Handfuls
+1838,Potatoes,168,2 large
+1839,Butter,168,1 knob
+1840,Olive Oil,169,1 tbsp
+1841,Onion,169,1 chopped
+1842,Chicken Breast,169,200g
+1843,Ginger,169,pinch
+1844,Harissa Spice,169,2 tblsp 
+1845,Dried Apricots,169,10
+1846,Chickpeas,169,220g
+1847,Couscous,169,200g
+1848,Chicken Stock,169,200ml
+1849,Coriander,169,Handful
+1850,Banana,170,1
+1851,Cacao,170,3 tbsp
+1852,Avocado,170,1
+1853,Honey,170,2 tblsp 
+1854,Lemon Juice,170,1 tsp 
+1855,Vanilla,170,1 tsp 
+1856,Water,170,2 tbsp
+1857,Sea Salt,170,pinch
+1858,Plain Flour,171,300g
+1859,Butter,171,75g
+1860,Cream Cheese,171,100g 
+1861,Icing Sugar,171,1 tbls
+1862,Butter,171,150g
+1863,Maple Syrup,171,200ml
+1864,Light Brown Soft Sugar,171,250g
+1865,Dark Brown Soft Sugar,171,100g 
+1866,Eggs,171,4
+1867,Vanilla Extract,171,1 tsp 
+1868,Pecan Nuts,171,400g
+1869,Dark Chocolate Chips,171,200g
+1870,Dark Chocolate,172,200g
+1871,Milk Chocolate,172,100g 
+1872,Salted Butter,172,250g
+1873,Light Brown Soft Sugar,172,400g
+1874,Eggs,172,4 large
+1875,Plain Flour,172,140g
+1876,Cocoa,172,50g
+1877,Raspberries,172,200g
+1878,Chickpeas,173,400g
+1879,Olive Oil,173,1 tblsp 
+1880,Paprika,173,pinch
+1881,Tomatoes,173,2 small cut chunks
+1882,Red Onions,173,1 finely sliced
+1883,Red Wine Vinegar,173,2 tsp
+1884,Avocado,173,1
+1885,Lime,173,Juice of 1
+1886,Lime,173,Chopped
+1887,Sour Cream,173,100g 
+1888,Harissa Spice,173,2 tsp
+1889,Corn Tortillas,173,4
+1890,Coriander,173,to serve
+1891,Chicken Stock,174,450ml
+1892,Chicken Breast,174,3
+1893,Butter,174,75g
+1894,Leek,174,2 sliced
+1895,Garlic,174,2 cloves minced
+1896,Plain Flour,174,50g
+1897,Milk,174,200ml
+1898,White Wine,174,3 tbs
+1899,Double Cream,174,150ml
+1900,Ham,174,150g
+1901,Sea Salt,174,spinkling
+1902,Pepper,174,pinch
+1903,Plain Flour,174,350g
+1904,Butter,174,200g
+1905,"Free-range Egg, Beaten",174,1
+1906,Cold Water,174,1 tbls
+1907,"Free-range Egg, Beaten",174,1
+1908,Potatoes,175,1.5kg
+1909,Butter,175,30g
+1910,Double Cream,175,5 tblsp 
+1911,Egg Yolks,175,2
+1912,Butter,175,30g
+1913,Shallots,175,7
+1914,Carrots,175,3 chopped
+1915,Celery,175,2 sticks
+1916,Garlic Clove,175,1 finely chopped 
+1917,White Wine,175,4 tbsp
+1918,Tomato Puree,175,1 tbls
+1919,Tinned Tomatos,175,400g
+1920,Chicken Stock,175,350ml
+1921,Chicken,175,600g
+1922,Black Olives,175,16
+1923,Parsley,175,2 tbs
+1924,Gruyere cheese,175,50g
+1925,Vegetable Oil,176,450ml
+1926,Plain Flour,176,400g
+1927,Bicarbonate Of Soda,176,2 tsp
+1928,Sugar,176,550ml
+1929,Eggs,176,5
+1930,Salt,176,½ tsp
+1931,Cinnamon,176,2 tsp
+1932,Carrots,176,500g grated
+1933,Walnuts,176,150g
+1934,Cream Cheese,176,200g
+1935,Caster Sugar,176,150g
+1936,Butter,176,100g 
+1937,White Flour,177,500g
+1938,Salt,177,1 tsp 
+1939,Yeast,177,7g
+1940,Milk,177,300ml 
+1941,Butter,177,40g
+1942,Eggs,177,1
+1943,Vegetable Oil,177,Dash
+1944,Butter,177,25g
+1945,Brown Sugar,177,75g
+1946,Cinnamon,177,2 tsp
+1947,Dried Fruit,177,150g
+1948,Milk,177,2 tbs
+1949,Caster Sugar,177,2 tbs
+1950,Single Cream,178,142ml
+1951,Caster Sugar,178,25g
+1952,Dark Chocolate,178,100g 
+1953,Butter,178,25g
+1954,Butter,178,drizzle
+1955,Caster Sugar,178,50g
+1956,Dark Chocolate,178,175g
+1957,Double Cream,178,2 tbs
+1958,Egg Yolks,178,4
+1959,Egg White,178,5
+1960,Double Cream,178,2 tbs
+1961,Icing Sugar,178,to serve
+1962,Puff Pastry,179,320g
+1963,Dark Brown Soft Sugar,179,4 tbs
+1964,Braeburn Apples,179,3
+1965,Red Wine Jelly,179,4 tbs
+1966,Creme Fraiche,179,100ml
+1967,Icing Sugar,179,1 tbs
+1968,Cardamom,179,3
+1969,Olive Oil,180,1 tbs
+1970,Mushrooms,180,300g
+1971,Chicken Legs,180,4
+1972,Passata,180,500g
+1973,Chicken Stock Cube,180,1
+1974,Black Olives,180,100g 
+1975,Parsley,180,Chopped
+1976,Shortcrust Pastry,181,375g
+1977,Eggs,181,2 large
+1978,Muscovado Sugar,181,175g
+1979,Raisins,181,100g 
+1980,Vanilla Extract,181,1 tsp 
+1981,Butter,181,50g
+1982,Single Cream,181,4 tsp
+1983,Walnuts,181,50g
+1984,Chicken,182,1.5kg
+1985,Butter,182,25g
+1986,Olive Oil,182,6 tblsp
+1987,Red Onions,182,2 sliced
+1988,Red Pepper,182,3 Large
+1989,Chorizo,182,130g
+1990,Sun-Dried Tomatoes,182,8
+1991,Garlic,182,6 cloves sliced
+1992,Basmati Rice,182,300g
+1993,Tomato Puree,182,drizzle
+1994,Paprika,182,½ tsp
+1995,Bay Leaves,182,4
+1996,Thyme,182,Handful
+1997,Chicken Stock,182,350ml
+1998,Dry White Wine,182,180g
+1999,Lemons,182,2
+2000,Black Olives,182,100g 
+2001,Salt,182,to serve
+2002,Pepper,182,to serve
+2003,Kale,183,1  bunch
+2004,Bacon,183,2 strips
+2005,Garlic,183,3 cloves Chopped
+2006,Onion,183,1 medium
+2007,Paprika,183,1/2 tsp
+2008,Thyme,183,1 Sprig
+2009,Tomato,183,1
+2010,Red Pepper,183,1
+2011,Banana,183,4
+2012,Vegetable Oil,183,Splash
+2013,Chicken,184,8 oz 
+2014,Salt,184,pinch
+2015,Pepper,184,pinch
+2016,Ginger Cordial,184,1 tsp 
+2017,Ginger,184,1 tsp 
+2018,Spring Onions,184,1 tbs
+2019,Rice,184,1/2 cup 
+2020,Water,184,8 cups 
+2021,Coriander,184,2 oz 
+2022,Mars Bar,185,6 chopped
+2023,Butter,185,150g
+2024,Rice Krispies,185,120g
+2025,Milk Chocolate,185,150g
+2026,Tomatoes,186,4
+2027,Olive Oil,186,2 tbs
+2028,Onion,186,1 Diced
+2029,Red Pepper,186,1 sliced
+2030,Green Pepper,186,1 sliced
+2031,Garlic,186,3 Cloves Crushed
+2032,Cumin,186,1 tsp 
+2033,Paprika,186,1 tsp 
+2034,Salt,186,3/4 teaspoon
+2035,Chili Powder,186,1/2 teaspoon
+2036,Eggs,186,4
+2037,Cashew Nuts,187,250g
+2038,Icing Sugar,187,100g 
+2039,Egg Yolks,187,2
+2040,Orange Blossom Water,187,2 tbs
+2041,Icing Sugar,187,To Glaze
+2042,Almonds,187,100g 
+2043,Lentils,188,1 cup 
+2044,Onion,188,1 large
+2045,Carrots,188,1 large
+2046,Tomato Puree,188,1 tbs
+2047,Cumin,188,2 tsp
+2048,Paprika,188,1 tsp 
+2049,Mint,188,1/2 tsp
+2050,Thyme,188,1/2 tsp
+2051,Black Pepper,188,1/4 tsp
+2052,Red Pepper Flakes,188,1/4 tsp
+2053,Vegetable Stock,188,4 cups 
+2054,Water,188,1 cup 
+2055,Sea Salt,188,Pinch
+2056,Orange,189,3
+2057,Demerara Sugar,189,1 tbs
+2058,Grand Marnier,189,2 tbs
+2059,Christmas Pudding,189,300g
+2060,Custard,189,500g
+2061,Mascarpone,189,250g
+2062,Double Cream,189,284ml
+2063,Flaked Almonds,189,Handful
+2064,Dark Chocolate,189,Grated
+2065,Almonds,190,50g
+2066,Bramley Apples,190,2 large
+2067,Candied Peel,190,200g
+2068,Nutmeg,190,1 whole
+2069,Raisins,190,1kg
+2070,Plain Flour,190,140g
+2071,Breadcrumbs,190,100g 
+2072,Muscovado Sugar,190,100g 
+2073,Eggs,190,3 Large
+2074,Brandy,190,2 tbs
+2075,Butter,190,250g
+2076,Butter,191,200g
+2077,Muscovado Sugar,191,200g
+2078,Plain Flour,191,200g
+2079,Eggs,191,4 Beaten
+2080,Ground Almonds,191,50g
+2081,Sherry,191,100ml
+2082,Candied Peel,191,85g
+2083,Glace Cherry,191,85g
+2084,Raisins,191,250g
+2085,Currants,191,250g
+2086,Pecan Nuts,191,100g 
+2087,Lemon,191,Grated zest of 1
+2088,Mixed Spice,191,1 ½ tbsp
+2089,Rose water,191,1 ½ tbsp
+2090,Vanilla Extract,191,1/2 tsp
+2091,Baking Powder,191,1/2 tsp
+2092,Beef Brisket,192,3 Lbs
+2093,Small Potatoes,192,10
+2094,Carrots,192,5
+2095,Cabbage,192,1 head
+2096,Kale,193,1  bunch
+2097,Italian Fennel Sausages,193,8
+2098,Cabbage,193,1 Head chopped
+2099,Garlic Clove,193,8
+2100,Onion,193,Sliced
+2101,Shiitake Mushrooms,193,Sliced
+2102,Chicken Stock,193,1 cup 
+2103,Salt,193, 
+2104,Pepper,193, 
+2105,Quinoa,194,225g
+2106,Butter,194,25g
+2107,Red Chilli,194,1 chopped
+2108,Garlic,194,1 clove finely chopped
+2109,Chicken Breast,194,400g
+2110,Olive Oil,194,2 tbs
+2111,Black Olives,194,Handful
+2112,Red Onions,194,1 chopped
+2113,Feta,194,100g 
+2114,Mint,194,Chopped
+2115,Lemon,194,Juice of 1/2
+2116,Chicken Breast,195,1
+2117,Pickle Juice,195,1/4 cup
+2118,Egg,195,1
+2119,Milk,195,1/4 cup
+2120,Flour,195,1/2 cup 
+2121,Icing Sugar,195,1 tbs
+2122,Paprika,195,1/2 tsp
+2123,Salt,195,1/2 tsp
+2124,Black Pepper,195,1/4 tsp
+2125,Garlic Powder,195,1/4 tsp
+2126,Celery Salt,195,1/4 tsp
+2127,Cayenne Pepper,195,1/2 tsp
+2128,Olive Oil,195,1 cup 
+2129,Sesame Seed Burger Buns,195,1
+2130,Butter,196,Knob
+2131,Pork Chops,196,2
+2132,Bacon,196,4
+2133,Potatoes,196,2
+2134,Carrots,196,1
+2135,Swede,196,1/2 
+2136,Cabbage,196,1/2 
+2137,Bay Leaf,196,1
+2138,Cider,196,100ml
+2139,Chicken Stock,196,100g 
+2140,Minced Beef,197,500g
+2141,Minced Pork,197,250g
+2142,Onion,197,1
+2143,Garlic,197,4 cloves
+2144,Parsley,197,3 tblsp chopped
+2145,Paprika,197,1 tbs
+2146,Baking Powder,197,3/4 teaspoon
+2147,Breadcrumbs,197,2 tbs
+2148,Water,197,3 tbs
+2149,Vegetable Stock Cube,197,1
+2150,Salt,197,1 tsp 
+2151,Pepper,197,1 tsp 
+2152,Potatoes,198,600g
+2153,Courgettes,198,1 chopped
+2154,Carrots,198,1 chopped
+2155,Green Pepper,198,1 chopped
+2156,Aubergine,198,1 small
+2157,Onion,198,1 Large Chopped
+2158,Lamb Shoulder,198,800g
+2159,Garlic Sauce,198,1 tbs
+2160,Tomato Puree,198,1 tbs
+2161,Olive Oil,198,80 ml 
+2162,Thyme,198,Sprinking
+2163,White Wine,198,250ml
+2164,Pepper,198,Pinch
+2165,Cannellini Beans,199,2 cans
+2166,Vegetable Oil,199,3 tbs
+2167,Tomatoes,199,2 cups 
+2168,Challots,199,5
+2169,Garlic,199,2 cloves
+2170,Parsley,199,Pinch
+2171,Chorizo,199,1/2 kg chopped 
+2172,Beef Brisket,200,2
+2173,Bread,200,2
+2174,Lettuce,200,1
+2175,Tomato,200,1
+2176,Ham,200,100g 
+2177,Mozzarella,200,100g 
+2178,Bacon,200,100g 
+2179,Egg,200,1
+2180,Onion,200,1
+2181,Pepper,200,1
+2182,Red Chilli,201,1 large
+2183,Ginger,201,0.5
+2184,Garlic,201,1 large
+2185,Coriander,201,Bunch
+2186,Sunflower Oil,201,1 tbsp
+2187,Chicken Breasts,201,4
+2188,Peanut Butter,201,5 tblsp 
+2189,Chicken Stock,201,150ml
+2190,Greek Yogurt,201,200g
+2191,Butter,202,85g
+2192,Sour Cream,202,140g
+2193,Sugar,202,1tbsp
+2194,Cream Cheese,202,900g
+2195,Caster Sugar,202,250g
+2196,Plain Flour,202,3 tbs
+2197,Lemon Juice,202,1 ½ teaspoons
+2198,Eggs,202,3 Large
+2199,Sour Cream,202,250ml
+2200,Sour Cream,202,150ml
+2201,Caster Sugar,202,1 tbsp
+2202,Lemon Juice,202,2 tsp
+2203,Custard,203,125g
+2204,Caster Sugar,203,50g
+2205,Cocoa,203,5 tbs
+2206,Egg,203,1 beaten
+2207,Digestive Biscuits,203,200g shredded
+2208,Desiccated Coconut,203,100g 
+2209,Almonds,203,50g
+2210,Butter,203,100g 
+2211,Double Cream,203,4 tbs
+2212,Custard Powder,203,3 tbs
+2213,Icing Sugar,203,250g
+2214,Dark Chocolate,203,150g
+2215,Butter,203,50g
+2216,Coconut Milk,204,2 cups 
+2217,Water,204,2 cups 
+2218,Ginger Paste,204,1/4 tsp
+2219,Ginger,204,1
+2220,Bay Leaf,204,1
+2221,Rice,204,2 cups 
+2222,Eggs,204,4
+2223,Cucumber,204,1
+2224,Peanuts,204,1 cup 
+2225,Anchovy Fillet,204,4 oz 
+2226,Vegetable Oil,204,2 tbs
+2227,Onion,204,1
+2228,Garlic,204,3 cloves
+2229,Shallots,204,3
+2230,Chilli Powder,204,2 tsp
+2231,Anchovy Fillet,204,4 oz 
+2232,Sugar,204,3 tbs
+2233,Tamarind Paste,204,1/3 cup
+2234,onions,205,2
+2235,olive oil,205,1tbsp
+2236,garlic,205,1 clove
+2237,lean minced beef,205,500g
+2238,mushrooms,205,90g
+2239,dried oregano,205,1tsp
+2240,tomatoes,205,400g can
+2241,hot beef stock,205,300ml
+2242,tomato puree,205,1tbsp
+2243,worcestershire sauce,205,1tbsp
+2244,spaghetti,205,350g
+2245,parmesan,205,Topping
+2246,penne rigate,206,1 pound
+2247,olive oil,206,1/4 cup
+2248,garlic,206,3 cloves
+2249,chopped tomatoes,206,1 tin 
+2250,red chile flakes,206,1/2 teaspoon
+2251,italian seasoning,206,1/2 teaspoon
+2252,basil,206,6 leaves
+2253,Parmigiano-Reggiano,206,spinkling
+2254,Olive Oil,207,1 tbls
+2255,Onion,207,1
+2256,Leek,207,1 chopped
+2257,Garlic,207,3 cloves
+2258,Cumin,207,4 tsp ground 
+2259,Coriander,207,2 tsp ground
+2260,Smoked Paprika,207,1 tsp
+2261,Cinnamon,207,1/2 tsp
+2262,Chili Powder,207,1 tsp
+2263,Cocoa,207,1 tsp
+2264,Dried Oregano,207,1/2 tsp
+2265,Diced Tomatoes,207,1 can
+2266,Water,207,3 cups
+2267,Carrots,207,3 chopped
+2268,Brown Lentils,207,1 1/2 cups
+2269,Sea Salt,207,1 tsp
+2270,Squash,207,1 Small
+2271,Cashews,207,1 Cup
+2272,Apple Cider Vinegar,207,1 tsp
+2273,Medjool dates,208,225g
+2274,water,208,175ml Boiling
+2275,vanilla extract,208,1 tsp
+2276,self-raising flour,208,175g
+2277,bicarbonate of soda,208,1 tsp
+2278,eggs,208,2
+2279,butter,208,85g
+2280,demerara sugar,208,140g
+2281,black treacle,208,2 tbsp
+2282,milk,208,100ml
+2283,ice cream,208,1 scoop
+2284,muscovado sugar,208,175g
+2285,butter,208,50g
+2286,double cream,208,225ml
+2287,black treacle,208,1 tbsp
+2288,Small Potatoes,209,650g/1lb 8 oz
+2289,Harissa Spice,209,1 tsp
+2290,olive oil,209,2 tsp
+2291,Lemon,209,juice of half
+2292,Spring onions,209,4
+2293,Rocket,209,150g/6oz
+2294,Feta,209,80g/3oz
+2295,Mint,209,20 chopped
+2296,Pine nuts,209,2 tablespoons
+2297,Salt,209,Pinch
+2298,Pepper,209,Pinch
+2299,Olive Oil,210,4 tablespoons
+2300,Egg Plants,210,6 small
+2301,Harissa,210,½ tablespoon
+2302,Chickpeas,210,1 can
+2303,Cherry Tomatoes,210,2 cups halved
+2304,Greek yogurt,210,1 1/2 cups
+2305,Ground cumin,210,1 tablespoon
+2306,Parsley,210,½ cup 
+2307,butter,211,50g/2oz
+2308,onion,211,1 finely chopped 
+2309,rice,211,150g
+2310,white wine,211,125ml 
+2311,vegetable stock,211,1 litre hot
+2312,lemon,211,The juice and zest of one
+2313,King Prawns,211,240g large
+2314,salmon,211,150g
+2315,asparagus,211,100g tips blanched briefly in boiling water
+2316,black pepper,211,ground
+2317,Parmesan,211,50g shavings
+2318,Digestive Biscuits,212,250g
+2319,Pretzels,212,75g
+2320,Butter,212,135g
+2321,Cream Cheese,212,450g
+2322,Vanilla Extract,212,1tsp
+2323,Icing Sugar,212,100g 
+2324,Caramel,212,150g
+2325,Sea Salt,212,1tsp
+2326,Double Cream,212,300ml 
+2327,Caramel Sauce,212,drizzle
+2328,Toffee Popcorn,212,Top
+2329,Pretzels,212,Top
+2330,Mussels,213,400g
+2331,Prawns,213,8
+2332,Saffron,213,2 pinches
+2333,Vermicelli,213,350g
+2334,Olive Oil,213,5 tblsp 
+2335,Onions,213,1 large
+2336,Garlic,213,3 cloves
+2337,Paprika,213,2 tbs
+2338,Monkfish,213,1 tail
+2339,Baby Squid,213,4
+2340,Fish Stock,213,650ml
+2341,Tomatoes,213,2 large
+2342,Lemon,213,Juice of 1
+2343,Parsley,213,Topping
+2344,Olive Oil,214,3 tbsp
+2345,Garlic,214,8 cloves chopped
+2346,Caster Sugar,214,3 tbsp
+2347,Red Wine Vinegar,214,2 tblsp 
+2348,Chopped Tomatoes,214,3 400g Cans
+2349,Basil Leaves,214,Bunch
+2350,Mascarpone,214,2 tubs
+2351,Milk,214,3 tbsp
+2352,Parmesan,214,85g
+2353,Mozzarella,214,2 sliced
+2354,Spinach,214,1kg
+2355,Parmesan,214,100g 
+2356,Ricotta,214,3 tubs
+2357,Nutmeg,214,pinch
+2358,Cannellini Beans,214,400g
+2359,Butternut Squash,215,350g
+2360,Garlic,215,3 parts 
+2361,Olive Oil,215,3 tbs
+2362,Linguine Pasta,215,350g
+2363,Sage,215,Small bunch
+2364,Onion,216,1 sliced
+2365,Olive Oil,216,4 tbsp
+2366,Butter,216,25g
+2367,Potatoes,216,400g
+2368,Garlic,216,6 cloves
+2369,Eggs,216,8
+2370,Parsley,216,Handful
+2371,Baguette,216,1
+2372,Vine Tomatoes,216,4
+2373,Olive Oil,216,drizzle
+2374,Puff Pastry,217,300g
+2375,Egg White,217,Beaten
+2376,Egg Yolks,217,Beaten
+2377,Vegetable Oil,217,2 tbs
+2378,Beef,217,70 ml 
+2379,Lamb Kidney,217,200g
+2380,Onions,217,2 chopped
+2381,Plain Flour,217,30g
+2382,Beef Stock,217,85 ml 
+2383,Salt,217,pinch
+2384,Pepper,217,pinch
+2385,Worcestershire Sauce,217,Dash
+2386,Butter,218,100g 
+2387,Muscovado Sugar,218,175g
+2388,Eggs,218,2 large
+2389,Self-raising Flour,218,225g
+2390,Baking Powder,218,1 tsp 
+2391,Bicarbonate Of Soda,218,1 tsp 
+2392,Black Treacle,218,3 tbs
+2393,Milk,218,275ml
+2394,Double Cream,218,to serve
+2395,Butter,218,100g 
+2396,Muscovado Sugar,218,125g
+2397,Black Treacle,218,1 tbs
+2398,Double Cream,218,300ml 
+2399,Vanilla Extract,218,1 tsp 
+2400,Self-raising Flour,219,250g
+2401,Salt,219,pinch
+2402,Suet,219,125g
+2403,Currants,219,175g
+2404,Caster Sugar,219,80g
+2405,Lemon,219,Zest of 1
+2406,Orange,219,Zest of 1
+2407,Milk,219,150ml
+2408,Custard,219,to serve
+2409,Strawberries,220,300g
+2410,Blackberries,220,250g
+2411,Redcurrants,220,100g 
+2412,Raspberries,220,500g
+2413,Caster Sugar,220,175g
+2414,Bread,220,7 Slices
+2415,Rapeseed Oil,221,1 tbs
+2416,Leek,221,2 finely chopped
+2417,Courgettes,221,1 large
+2418,Vegetable Stock,221,1L
+2419,Cannellini Beans,221,400g
+2420,Green Beans,221,200g
+2421,Tomatoes,221,3 chopped
+2422,Garlic Clove,221,3 chopped
+2423,Basil,221,Small pack
+2424,Parmesan,221,40g
+2425,Ham,222,1kg
+2426,Peas,222,200g (soaked overnight)
+2427,Onions,222,2 chopped
+2428,Carrots,222,2 chopped
+2429,Bay Leaves,222,2
+2430,Celery,222,1 chopped
+2431,Frozen Peas,222,300g
+2432,Bread,222,to serve
+2433,Brown Sugar,223,2 cups 
+2434,Butter,223,¼ cup
+2435,Eggs,223,2
+2436,Vanilla Extract,223,1 tsp 
+2437,Salt,223,1 tsp 
+2438,Plain Flour,223,½ cup 
+2439,Milk,223,1 1/2 cups 
+2440,Canola Oil,224,2 tbs
+2441,Beef Fillet,224,4
+2442,Beef Stock,224,1 1/2 cup 
+2443,Butter,224,2 tbs
+2444,Garlic,224,2 cloves minced
+2445,Challots,224,1 medium finely diced
+2446,Mushrooms,224,4 oz 
+2447,Brandy,224,¼ cup
+2448,Heavy Cream,224,¼ cup
+2449,Dijon Mustard,224,1 tbs
+2450,Worcestershire Sauce,224,1 tbs
+2451,Tabasco Sauce,224,Dash
+2452,Parsley,224,1 tbs minced
+2453,Chives,224,1 tbs minced
+2454,Salt,224,to taste
+2455,Pepper,224,to taste
+2456,Salt Cod,225,450g
+2457,Ackee,225,400g
+2458,Onion,225,1 chopped
+2459,Paprika,225,1 tsp 
+2460,Curry Powder,225,2 tsp
+2461,Jerusalem Artichokes,225,2 tsp
+2462,Hotsauce,225,1 tsp 
+2463,Red Pepper,225,1 sliced
+2464,Yellow Pepper,225,1 sliced
+2465,Tomatoes,225,200g
+2466,Salt,225,to taste
+2467,Pepper,225,to taste
+2468,Self-raising Flour,225,250g
+2469,Suet,225,30g
+2470,Salt,225,pinch
+2471,Olive Oil,225,for frying
+2472,Pork,226,200g
+2473,Egg,226,1
+2474,Water,226,Dash
+2475,Salt,226,1/2 tsp
+2476,Sugar,226,1 tsp 
+2477,Soy Sauce,226,10g
+2478,Starch,226,10g
+2479,Tomato Puree,226,30g
+2480,Vinegar,226,10g
+2481,Coriander,226,Dash
+2482,Beef,227,1/2 lb
+2483,Salt,227,1/2 tsp
+2484,Sesame Seed Oil,227,1 tsp 
+2485,Pepper,227,1 pinch
+2486,Egg White,227,1
+2487,Starch,227,3 tbs
+2488,Oil,227,4 tbs
+2489,Ginger,227,1 tsp 
+2490,Garlic,227,1 tsp 
+2491,Onion,227,3/4 cup 
+2492,Carrots,227,1/2 cup 
+2493,Green Pepper,227,3/4 cup 
+2494,Celery,227,1 cup 
+2495,Mushrooms,227,1 cup 
+2496,Cooking wine,227,1 tbs
+2497,Water,227,1 cup 
+2498,Oyster Sauce,227,1 tbs
+2499,Hotsauce,227,1/2 tsp
+2500,Sugar,227,1 tsp 
+2501,Soy Sauce,227,1 tbs
+2502,Rice Stick Noodles,228,1/2 bag
+2503,Prawns,228,8 oz 
+2504,Egg,228,1/2 
+2505,Pepper,228,pinch
+2506,Sesame Seed Oil,228,2 tsp
+2507,Cornstarch,228,2 tbs
+2508,Oil,228,4 tbs
+2509,Minced Garlic,228,1 tsp 
+2510,Ginger,228,1 tsp 
+2511,Onion,228,1/2 cup 
+2512,Bean Sprouts,228,1 cup 
+2513,Spring Onions,228,1/2 cup 
+2514,Cooking wine,228,1 tbs
+2515,Oyster Sauce,228,1 tbs
+2516,Sugar,228,1/2 tbs
+2517,Vinegar,228,1/2 tbs
+2518,Soy Sauce,228,1 tbs
+2519,Salmon,229,400g
+2520,Avocado,229,3
+2521,Cucumber,229,1
+2522,Spinach,229,400g
+2523,Mint,229,4 tbs
+2524,Lime,229,zest and juice of 1
+2525,Honey,229,2 tsp
+2526,Olive Oil,229,3 tbs
+2527,Eggs,230,4
+2528,White Wine Vinegar,230,2 tbs
+2529,English Muffins,230,2
+2530,Butter,230,To serve
+2531,Smoked Salmon,230,8 slices
+2532,Lemon Juice,230,2 tsp
+2533,White Wine Vinegar,230,2 tsp
+2534,Egg,230,3 Yolkes
+2535,Unsalted Butter,230,125g
+2536,Olive Oil,231,1 tbs
+2537,Red Onions,231,2 chopped
+2538,Red Chilli,231,1 finely chopped 
+2539,Garlic,231,1 clove
+2540,Coriander,231,Chopped
+2541,Cherry Tomatoes,231,800g
+2542,Caster Sugar,231,1 tbs
+2543,Eggs,231,4
+2544,Feta,231,Spinkling
+2545,Butter,232,50g
+2546,Onion,232,1 chopped
+2547,Cardamom,232,3 Pods
+2548,Turmeric,232,1/4 tsp
+2549,Cinnamon Stick,232,1 small
+2550,Bay Leaf,232,Sprigs of fresh
+2551,Basmati Rice,232,450g
+2552,Chicken Stock,232,1 Litre
+2553,Smoked Haddock,232,750g
+2554,Eggs,232,3
+2555,Parsley,232,3 tblsp chopped
+2556,Lemon,232,1 chopped
+2557,Potatoes,233,1.5kg
+2558,Bay Leaf,233,2 leaves
+2559,Shallots,233,2
+2560,Butter,233,3 tbs
+2561,Kale,233,750g
+2562,Sausages,233,2
+2563,Milk,233,500ml
+2564,Nutmeg,233,Grated
+2565,Salt,233,Pinch
+2566,Pepper,233,Pinch
+2567,Water,234,2L
+2568,Peas,234,300g
+2569,Pork,234,100g 
+2570,Vegetable Stock Cube,234,1
+2571,Celery,234,2
+2572,Carrots,234,2
+2573,Potatoes,234,1 large
+2574,Onion,234,1 small
+2575,Leek,234,1 small
+2576,Celeriac,234,1 cup 
+2577,Sausages,234,1 pound
+2578,Spaghetti,235,320g
+2579,Egg Yolks,235,6
+2580,Salt,235,As required
+2581,Bacon,235,150g
+2582,Pecorino,235,50g
+2583,Black Pepper,235,As required
+2584,Potatoes,236,5
+2585,Carrots,236,12 ounces
+2586,Scallions,236,1
+2587,Garlic,236,2 cloves
+2588,Bread,236,1 Slice
+2589,Garlic Powder,236,1
+2590,Soy Sauce,236,2
+2591,Ground Beef,236,1
+2592,Vegetable Oil,236,1 tsp 
+2593,Sugar,236,2 tsp
+2594,Butter,236,2 tbsp
+2595,Potatoes,237,2
+2596,Apples,237,1
+2597,Garlic,237,2 cloves
+2598,Lemon,237,1
+2599,Pork,237,2
+2600,Zucchini,237,1
+2601,Chicken Stock,237,1
+2602,Vegetable Oil,237,1 tbsp
+2603,Sugar,237,1 1/2 tsp 
+2604,Butter,237,2 tbsp
+2605,Flour,238,350g
+2606,Salt,238,1 tsp 
+2607,Sugar,238,2 tbs
+2608,Butter,238,1 cup 
+2609,Water,238,1/2 cup 
+2610,Rhubarb,238,450g
+2611,Strawberries,238,450g
+2612,Cornstarch,238,3 tbs
+2613,Sugar,238,150g
+2614,Cinnamon,238,1/4 tsp
+2615,Lemon Juice,238,1 tsp 
+2616,Unsalted Butter,238,2 tbs
+2617,Milk,238,2 tbs
+2618,Sugar,238,Spinkling
+2619,Tomatoes,239,4 large
+2620,Sugar,239,Pinch
+2621,Olive Oil,239,4 tbs
+2622,Onion,239,1 chopped
+2623,Garlic Clove,239,2 finely chopped
+2624,Lamb,239,200g
+2625,Cinnamon,239,1 tbs
+2626,Tomato Puree,239,2 tbs chopped
+2627,Rice,239,50g
+2628,Chicken Stock,239,100ml
+2629,Dill,239,4 tbs
+2630,Chopped Parsley,239,2 tbs
+2631,Mint,239,1 tbs
+2632,Herring,240,8
+2633,Onion,240,1 sliced
+2634,Olive Oil,240,1/2 cup 
+2635,Allspice,240,1 tsp 
+2636,Pepper,240,1 tsp 
+2637,Bay Leaf,240,1
+2638,Chicken Thighs,241,1 kg
+2639,Coriander,241,1 tbs
+2640,Cumin,241,1 tbs
+2641,Cardamom,241,1 tbs
+2642,Cayenne Pepper,241,1 tsp 
+2643,Paprika,241,2 tsp
+2644,Lemon Juice,241,2 tbs
+2645,Olive Oil,241,3 tbs
+2646,Greek Yogurt,241,1 cup 
+2647,Garlic Clove,241,1
+2648,Cumin,241,1 tsp 
+2649,Lemon Juice,241,Splash
+2650,Lettuce,241,Sliced
+2651,Tomato,241,Sliced
+2652,Pita Bread,241,6
+2653,Spring Onions,242,1  bunch
+2654,Olive Oil,242,Dash
+2655,Red Chilli,242,1 finely sliced
+2656,Garlic,242,1 clove
+2657,Prawns,242,350g
+2658,Feta,242,75g
+2659,Butter,242,15g
+2660,Plain Flour,242,250g
+2661,Egg,242,1 Seperated
+2662,White Wine Vinegar,242,1/2 tsp
+2663,Rice,243,400g
+2664,Coconut Milk,243,150ml
+2665,Water,243,100ml
+2666,Salt,243,1 tsp 
+2667,Corn Flour,243,5 tbs
+2668,Flour,243,3 tbs
+2669,Eggs,243,3
+2670,Coconut Cream,243,200ml
+2671,Sugar,243,140g
+2672,Sushi Rice,244,300ml 
+2673,Rice wine,244,100ml
+2674,Caster Sugar,244,2 tbs
+2675,Mayonnaise,244,3 tbs
+2676,Rice wine,244,1 tbs
+2677,Soy Sauce,244,1 tbs
+2678,Cucumber,244,1
+2679,plain flour,245,175g/6oz
+2680,chilled butter,245,75g/2½oz
+2681,cold water,245,2-3 tbsp
+2682,raspberry jam,245,1 tbsp
+2683,butter,245,125g/4½oz
+2684,caster sugar,245,125g/4½oz
+2685,ground almonds,245,125g/4½oz
+2686,"free-range egg, beaten",245,1
+2687,almond extract,245,½ tsp
+2688,flaked almonds,245,50g/1¾oz
+2689,butter,246,25g/1oz
+2690,bread,246,8 thin slices
+2691,sultanas,246,50g/2oz
+2692,cinnamon,246,2 tsp
+2693,milk,246,350ml/12fl
+2694,double cream,246,50ml/2fl oz
+2695,eggs,246,2 free-range
+2696,sugar,246,25g/1oz
+2697,nutmeg,246,"grated, to taste"
+2698,mushrooms,247,400g
+2699,English Mustard,247,1-2tbsp
+2700,Olive Oil,247,Dash
+2701,Beef Fillet,247,750g piece
+2702,Parma ham,247,6-8 slices
+2703,Puff Pastry,247,500g
+2704,Flour,247,Dusting
+2705,Egg Yolks,247,2 Beaten 
+2706,Aubergine,248,1 large
+2707,Onion,248,½ cup 
+2708,Tomatoes,248,1 cup
+2709,Garlic,248,6 cloves
+2710,Green Chili,248,1
+2711,Red Chili Powder,248,¼ teaspoon
+2712,Oil,248,1.5 tablespoon
+2713,Coriander Leaves,248,1 tablespoon chopped
+2714,salt,248,as required
+2715,Beef Brisket,249,4-5 pound
+2716,Salt,249,Dash
+2717,Onion,249,3
+2718,Garlic,249,5 cloves
+2719,Thyme,249,1 Sprig
+2720,Rosemary,249,1 sprig 
+2721,Bay Leaves,249,4
+2722,beef stock,249,2 cups
+2723,Carrots,249,3 Large
+2724,Mustard,249,1 Tbsp
+2725,Potatoes,249,4 Mashed
+2726,Beef,250,8 slices
+2727,Broccoli,250,12 florets
+2728,Potatoes,250,1 Packet
+2729,Carrots,250,1 Packet
+2730,plain flour,250,140g
+2731,Eggs,250,4
+2732,milk,250,200ml
+2733,sunflower oil,250,drizzle (for cooking)
+2734,Beef,251,1kg
+2735,Onions,251,3
+2736,Garlic,251,4 cloves
+2737,Olive oil,251,Dash
+2738,Chorizo,251,300g
+2739,Cumin,251,2 tsp
+2740,All spice,251,2 tsp
+2741,Cloves,251,1 tsp
+2742,Cinnamon stick,251,1 large
+2743,Bay Leaves,251,3
+2744,Oregano,251,2 tsp dried
+2745,Ancho Chillies,251,2 ancho
+2746,Balsamic Vinegar,251,3 tbsp
+2747,Plum Tomatoes,251,2 x 400g
+2748,Tomato Ketchup,251,2 tbsp
+2749,Dark Brown Sugar,251,2 tbsp
+2750,Borlotti Beans,251,2 x 400g tins
+2751,Olive Oil,252,1 tbls
+2752,Onions,252,1
+2753,Garlic,252,1 clove
+2754,Butter,252,1 tbsp
+2755,Mushrooms,252,250g
+2756,Beef Fillet,252,500g
+2757,Plain Flour,252,1tbsp
+2758,Creme Fraiche,252,150g
+2759,English Mustard,252,1 tbsp
+2760,Beef Stock,252,100ml
+2761,Parsley,252,Topping
+2762,Rapeseed Oil,253,2 tblsp 
+2763,Onion,253,1 finely chopped 
+2764,Celery,253,1
+2765,Leek,253,1 sliced
+2766,Potatoes,253,1 medium
+2767,Butter,253,1 knob
+2768,Vegetable Stock,253,1 litre hot
+2769,Broccoli,253,1 Head chopped
+2770,Stilton Cheese,253,140g
+2771,Sausages,254,8 large
+2772,Tomato Sauce,254,1 Jar
+2773,Butter Beans,254,1200g
+2774,Black Treacle,254,1 tbls
+2775,English Mustard,254,1 tsp 
+2776,Banana,255,1 large
+2777,Eggs,255,2 medium
+2778,Baking Powder,255,pinch
+2779,Vanilla Extract,255,spinkling
+2780,Oil,255,1 tsp 
+2781,Pecan Nuts,255,25g
+2782,Raspberries,255,125g
+2783,Olive Oil,256,2 tbs
+2784,Butter,256,25g
+2785,Beef,256,750g
+2786,Plain Flour,256,2 tblsp 
+2787,Garlic,256,2 cloves minced
+2788,Onions,256,175g
+2789,Celery,256,150g
+2790,Carrots,256,150g
+2791,Leek,256,2 chopped
+2792,Swede,256,200g
+2793,Red Wine,256,150ml
+2794,Beef Stock,256,500g
+2795,Bay Leaf,256,2
+2796,Thyme,256,3 tbs
+2797,Parsley,256,3 tblsp chopped
+2798,Plain Flour,256,125g
+2799,Baking Powder,256,1 tsp 
+2800,Suet,256,60g
+2801,Water,256,Splash
+2802,Beef,257,1kg
+2803,Plain Flour,257,2 tbs
+2804,Rapeseed Oil,257,2 tbs
+2805,Red Wine,257,200ml
+2806,Beef Stock,257,400ml
+2807,Onion,257,1 finely sliced
+2808,Carrots,257,2 chopped
+2809,Thyme,257,3 sprigs
+2810,Mustard,257,2 tbs
+2811,Egg Yolks,257,2 free-range
+2812,Puff Pastry,257,400g
+2813,Green Beans,257,300g
+2814,Butter,257,25g
+2815,Salt,257,pinch
+2816,Pepper,257,pinch
+2817,Beef,258,900g
+2818,Olive Oil,258,3 tbs
+2819,Shallots,258,3
+2820,Garlic,258,2 cloves minced
+2821,Bacon,258,125g
+2822,Thyme,258,1 tbs chopped
+2823,Bay Leaf,258,2
+2824,Stout,258,330ml
+2825,Beef Stock,258,400ml
+2826,Corn Flour,258,2 tbs
+2827,Oysters,258,8
+2828,Plain Flour,258,400g
+2829,Salt,258,pinch
+2830,Butter,258,250g
+2831,Eggs,258,To Glaze
+2832,Hazlenuts,259,50g
+2833,Butter,259,125g
+2834,Caster Sugar,259,150g
+2835,Lemon,259,Grated
+2836,Plain Flour,259,150g
+2837,Baking Powder,259,½ tsp
+2838,Blackberrys,259,600g
+2839,Sugar,259,75g
+2840,Caster Sugar,259,2 tbs
+2841,Lemon Juice,259,1 tbs
+2842,Double Cream,259,300ml 
+2843,Yogurt,259,100ml
+2844,Mint,259,Garnish with
+2845,Butter,260,175g
+2846,Caster Sugar,260,175g
+2847,Self-raising Flour,260,140g
+2848,Almonds,260,50g
+2849,Baking Powder,260,½ tsp
+2850,Eggs,260,3 Medium
+2851,Vanilla Extract,260,½ tsp
+2852,Almond Extract,260,¼ teaspoon
+2853,Butter,260,175g
+2854,Caster Sugar,260,175g
+2855,Self-raising Flour,260,140g
+2856,Almonds,260,50g
+2857,Baking Powder,260,½ tsp
+2858,Eggs,260,3 Medium
+2859,Vanilla Extract,260,½ tsp
+2860,Almond Extract,260,¼ teaspoon
+2861,Pink Food Colouring,260,½ tsp
+2862,Apricot,260,200g
+2863,Marzipan,260,1kg
+2864,Icing Sugar,260,Dusting
+2865,Goose Fat,261,3 tsp
+2866,Beef Shin,261,600g
+2867,Bacon,261,100g 
+2868,Challots,261,350g
+2869,Chestnut Mushroom,261,250g
+2870,Garlic Clove,261,2 sliced
+2871,Bouquet Garni,261,1
+2872,Tomato Puree,261,1 tbs
+2873,Red Wine,261,750 ml 
+2874,Celeriac,261,600g
+2875,Olive Oil,261,2 tbs
+2876,Thyme,261,sprigs of fresh
+2877,Rosemary,261,sprigs of fresh
+2878,Bay Leaf,261,2
+2879,Cardamom,261,4
+2880,Plain Flour,262,375g
+2881,Caster Sugar,262,50g
+2882,Yeast,262,7g
+2883,Milk,262,75g
+2884,Eggs,262,3 Large
+2885,Eggs,262,To Glaze
+2886,Butter,262,180g
+2887,Brie,262,250g
+2888,Prosciutto,262,8 slices
+2889,Onions,263,2 finely chopped
+2890,Thyme,263,sprigs of fresh
+2891,Olive Oil,263,2 tbs
+2892,Potatoes,263,1.5kg
+2893,Vegetable Stock,263,425g
+2894,Water,264,1/2 cup 
+2895,Yeast,264,2 parts 
+2896,Sugar,264,1/2 cup 
+2897,Milk,264,1/2 cup 
+2898,Butter,264,6 tblsp
+2899,Eggs,264,2
+2900,Salt,264,1 ½ tsp
+2901,Flour,264,2-1/2 cups
+2902,Oil,264,for frying
+2903,Lemon,264,garnish
+2904,Sugar,264,garnish
+2905,Cinnamon,264,garnish
+2906,Chicken,265,1 whole
+2907,Tomato,265,1 chopped
+2908,Onions,265,2 chopped
+2909,Garlic Clove,265,2 chopped
+2910,Red Pepper,265,1 chopped
+2911,Carrots,265,1 chopped
+2912,Lime,265,1
+2913,Thyme,265,2 tsp
+2914,Allspice,265,1 tsp 
+2915,Soy Sauce,265,2 tbs
+2916,Cornstarch,265,2 tsp
+2917,Coconut Milk,265,2 cups 
+2918,Vegetable Oil,265,1 tbs
+2919,Beef,266,1/2 lb
+2920,Salt,266,pinch
+2921,Pepper,266,pinch
+2922,Sesame Seed Oil,266,2 tsp
+2923,Egg,266,1/2 
+2924,Starch,266,3 tbs
+2925,Oil,266,5 tbs
+2926,Noodles,266,1/4 lb
+2927,Onion,266,1/2 cup 
+2928,Minced Garlic,266,1 tsp 
+2929,Ginger,266,1 tsp 
+2930,Bean Sprouts,266,1 cup 
+2931,Mushrooms,266,1 cup 
+2932,Water,266,1 cup 
+2933,Oyster Sauce,266,1 tbs
+2934,Sugar,266,1 tsp 
+2935,Soy Sauce,266,1 tsp 
+2936,Fennel,267,2 medium
+2937,Parsley,267,2 tbs chopped
+2938,Lemon,267,Juice of 1
+2939,Cherry Tomatoes,267,175g
+2940,Olive Oil,267,1 tbs
+2941,Salmon,267,350g
+2942,Black Olives,267,to serve
+2943,Ricotta,268,500g
+2944,Eggs,268,4 large
+2945,Flour,268,3 tbs
+2946,Sugar,268,250g
+2947,Cinnamon,268,1 tsp 
+2948,Lemons,268,Grated Zest of 2
+2949,Dark Rum,268,5 tbs
+2950,Icing Sugar,268,sprinking
+2951,Potatoes,269,3 Medium
+2952,Olive Oil,269,1 tbs
+2953,Bacon,269,2 strips
+2954,Garlic Clove,269,Minced
+2955,Maple Syrup,269,1 tbs
+2956,Parsley,269,Garnish
+2957,Salt,269,Pinch
+2958,Pepper,269,Pinch
+2959,Allspice,269,To taste
+2960,Butter,270,100g 
+2961,Flour,270,150g
+2962,Beef Stock,270,700ml
+2963,Onion,270,30g
+2964,Parsley,270,1 tbs
+2965,Beef,270,400g
+2966,Salt,270,Pinch
+2967,Pepper,270,Pinch
+2968,Nutmeg,270,Pinch
+2969,Flour,270,50g
+2970,Eggs,270,2 Beaten 
+2971,Breadcrumbs,270,50g
+2972,Potatoes,271,2
+2973,Red Onions,271,1
+2974,Garlic,271,2 cloves
+2975,Lime,271,1
+2976,Bread,271,2
+2977,Pork,271,1 lb
+2978,Barbeque Sauce,271, 
+2979,Hotsauce,271, 
+2980,Tomato Ketchup,271, 
+2981,Sugar,271, 
+2982,Vegetable Oil,271, 
+2983,Salt,271, 
+2984,Pepper,271, 
+2985,Rice,272,White
+2986,Onion,272,1
+2987,Lime,272,1
+2988,Garlic Clove,272,3
+2989,Cucumber,272,1
+2990,Carrots,272,3 oz 
+2991,Ground Beef,272,1 lb
+2992,Soy Sauce,272,2 oz 
+2993,Minced Beef,273,400g
+2994,Olive Oil,273,2 tbs
+2995,Sesame Seed Burger Buns,273,2
+2996,Onion,273,Chopped
+2997,Iceberg Lettuce,273,1/4 
+2998,Cheese,273,2 sliced
+2999,Dill Pickles,273,2 large
+3000,Mayonnaise,273,1 cup 
+3001,White Wine Vinegar,273,2 tsp
+3002,Pepper,273,Pinch
+3003,Mustard,273,2 tsp
+3004,Onion Salt,273,1 1/2 tsp 
+3005,Garlic Powder,273,1 1/2 tsp 
+3006,Paprika,273,1/2 tsp
+3007,Bacon,274,2 sliced
+3008,Kielbasa,274,1 lb
+3009,Pork,274,1 lb
+3010,Flour,274,1/4 cup
+3011,Garlic,274,3 chopped
+3012,Onion,274,1 Diced
+3013,Mushrooms,274,1 1/2 cup 
+3014,Cabbage,274,4 cups 
+3015,Sauerkraut,274,1 Jar
+3016,Red Wine,274,1/4 cup
+3017,Bay Leaf,274,1
+3018,Basil,274,1 tsp 
+3019,Marjoram,274,1 tsp 
+3020,Paprika,274,1 tbs
+3021,Caraway Seed,274,1/8 teaspoon
+3022,Hotsauce,274,1 dash
+3023,Beef Stock,274,5 Cups
+3024,Tomato Puree,274,2 tbs
+3025,Diced Tomatoes,274,1 cup 
+3026,Worcestershire Sauce,274,1 dash
+3027,Potatoes,275,4 large
+3028,Spring Onions,275,1  bunch
+3029,Plain Flour,275,100g 
+3030,Egg White,275,1
+3031,Milk,275,150ml
+3032,Bicarbonate Of Soda,275,1 tsp 
+3033,Butter,275,3 tbs
+3034,Vegetable Oil,275,2 tbs
+3035,Cherry Tomatoes,275,6
+3036,Bacon,275,12
+3037,Egg,275,6
+3038,Beef,276,1lb
+3039,Vegetable Oil,276,5 tbs
+3040,Cinnamon Stick,276,1
+3041,Cloves,276,3
+3042,Star Anise,276,3
+3043,Cardamom,276,3
+3044,Coconut Cream,276,1 cup 
+3045,Water,276,1 cup 
+3046,Tamarind Paste,276,2 tbs
+3047,Lime,276,6
+3048,Sugar,276,1 tbs
+3049,Challots,276,5
+3050,Filo Pastry,277,1 Packet
+3051,Minced Beef,277,150g
+3052,Onion,277,150g
+3053,Oil,277,40g
+3054,Salt,277,Dash
+3055,Pepper,277,Dash
+3056,Salmon,278,1 lb
+3057,Olive oil,278,1 tablespoon
+3058,Soy Sauce,278,2 tablespoons
+3059,Sake,278,2 tablespoons
+3060,Sesame Seed,278,4 tablespoons
+3061,Chocolate Chips,279,2 cups
+3062,Heavy Cream,279,2 tbs
+3063,Condensed Milk,279,1 – 14-ounce can
+3064,Vanilla Extract,279,1 tsp
+3065,White Chocolate Chips,279,1-⅓ cups
+3066,Miniature Marshmallows,279,1-½ cups
+3067,Mushrooms,280,1/3 cup
+3068,Wood Ear Mushrooms,280,1/3 cup
+3069,Tofu,280,2/3 Cup
+3070,Pork,280,1/2 cup 
+3071,Chicken Stock,280,2-1/2 cups
+3072,Salt,280,1/2 tsp
+3073,Sugar,280,1/4 tsp
+3074,Sesame Seed Oil,280,1 tsp 
+3075,Pepper,280,1/4 tsp
+3076,Hotsauce,280,1/2 tsp
+3077,Vinegar,280,1-½ cups
+3078,Soy Sauce,280,1 tsp 
+3079,Cornstarch,280,1 tbs
+3080,Water,280,2 tbs
+3081,Spring Onions,280,1/4 cup
+3082,Self-raising Flour,281,750g
+3083,Sugar,281,6 tablespoons
+3084,Eggs,281,2
+3085,Milk,281,1 cup 
+3086,Potatoes,282,5
+3087,Broccoli,282,1
+3088,Garlic,282,2 cloves
+3089,Chicken Breast,282,2
+3090,Balsamic Vinegar,282, 
+3091,Honey,282, 
+3092,Chicken Stock,282, 
+3093,Butter,282,1 tbsp
+3094,Vegetable Oil,282,1 tbsp
+3095,Olive Oil,282,1 tbsp
+3096,Digestive Biscuits,283,100g 
+3097,Almonds,283,85g
+3098,Butter,283,85g
+3099,Greek Yogurt,283,250ml
+3100,Mascarpone,283,750g
+3101,Eggs,283,2
+3102,Lemon,283,Zest of 1
+3103,Orange,283,Zest of 1
+3104,Honey,283,250ml
+3105,Fruit Mix,283,To serve
+3106,Floury Potatoes,284,800g
+3107,Butter,284,50g
+3108,Garlic Clove,284,3 chopped
+3109,Cabbage,284,1 chopped
+3110,Spring Onions,284,8
+3111,Double Cream,284,100ml
+3112,Mustard,284,2 tbs
+3113,Ham,284,180g
+3114,Eggs,284,4
