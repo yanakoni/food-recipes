@@ -1,4 +1,4 @@
-class UserController {
+export class UserController {
     async createUser(req, res) {
 
     }
@@ -15,5 +15,3 @@ class UserController {
         
     }
 }
-
-module.exports = new UserController();
