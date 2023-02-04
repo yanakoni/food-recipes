@@ -1,8 +1,9 @@
-import  express  from "express";
-import { Environment } from "./packages/general/environment.js"
+import express from "express";
 
-const PORT = Environment.config.http.LOCAL_PORT;
+const PORT = process.env.PORT ?? 4000;
+
 const app = express();
+
 app.listen(PORT, () => {
-    console.log("Server has been started on PORT 3000...");
+  console.log(`Server has been started on PORT ${PORT}...`);
 });
