@@ -2,28 +2,24 @@ import jwt from 'jsonwebtoken';
 import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
-export const verifyToken = async (req, res, next) => {
-  if (req.headers && req.headers.authorization && req.headers.authorization.split(' ')[0] === 'JWT') {
-    jwt.verify(req.headers.authorization.split(' ')[1], process.env.API_SECRET, function (err, decode) {
-      if (err) req.user = undefined;
-         prisma.user.findUnique({
-        where: {
-            username: username
+export const verifyToken = (req, res, next) => {
+    if(req.method === "OPTIONS") {
+        next()
+    }
+    try {
+        const token = req.headers.authorization.split(' ')[1];
+        if(!token){
+            return res.status(403).json({
+                message: "User is not authorized"
+            })
         }
-      }).exec((err, user) => {
-          if (err) {
-            res.status(500)
-              .send({
-                message: err
-              });
-          } else {
-            req.user = user;
-            next();
-          }
+        const decodedData = jwt.verify(token, "1234567");
+        req.user = decodedData;
+        next()
+    }catch(e){
+        console.log(e);
+        return res.status(403).json({
+            message: "User is not authorized"
         })
-    });
-  } else {
-    req.user = undefined;
-    next();
-  }
+    }
 };

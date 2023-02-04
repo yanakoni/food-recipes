@@ -3,43 +3,62 @@ import bcrypt from "bcrypt";
 const prisma = new PrismaClient()
 
 export class UserController {
+    async test(req, res){ 
+        res.status(200).json({
+            message: "111111"
+        })
+    }
+    async helloworld(req, res){ 
+        res.status(200).json({
+            message: "mat shluha"
+        })
+    }
     async singUp(req, res) {
-        const { username, password, email } = req.body;
+        //const { username, password, email } = req.body;
+        const username = "roman";
+        const password = "12345";
+        const email = "roman@gmail.com";
+        console.log(username);
         try {
-            const exister = await prisma.user.findFirst({
+            const exister = await prisma.users.findFirst({
                 where: {
                     username: username
                 }
             });
             if (exister) {
-                return res.status(400).send({
+                return res.status(400).json({
                     message: "User already exist"
                 });
             }
-            await prisma.user.create({
+            await prisma.users.create({
                 data: {
                     email: email,
                     username: username,
-                    password: bcrypt.hashSync(password, process.env.SALT ?? 5)
+                    password: bcrypt.hashSync(password, 5)
                 }
             });
-            res.status(200);
+            res.status(200).json({
+                message: "User successfully created"
+            });
         } catch (e) {
-            res.status(400).send({
-                message: "sign up failed"
+            console.log(e);
+            res.status(400).json({
+                message: "Signup failed"
             })
         }
     }
     async singIn(req, res){
-        const { username, password, email } = req.body;
+        //const { username, password} = req.body;
+        const username = "roman";
+        const password = "12345";
         try{
-            const user = await prisma.user.findUnique({
+            const user = await prisma.users.findFirst({
                 where: {
                     username: username
                 }
             });
             if(!user) {
-                return res.status(404).send({
+                return res.status(404).json({
                 message: "User Not found."
             });
             }
@@ -49,18 +68,18 @@ export class UserController {
             );
             if (!passwordIsValid) {
                 return res.status(401)
-                  .send({
+                  .json({
                     accessToken: null,
                     message: "Invalid Password!"
                   });
               }
             const token = jwt.sign({
                 id: user.id
-            }, process.env.API_SECRET, {
-                expiresIn: 7200
+            }, "1234567", {
+                expiresIn: "1h"
             });
             
-            res.status(200).send({
+            res.status(200).json({
                 user: {
                     id: user.id,
                     username: user.username,
@@ -72,7 +91,7 @@ export class UserController {
         }
         catch(e){
             console.warn(e);
-            res.status(404).send({
+            res.status(404).json({
                 message: "User Not found."
             });
         }
