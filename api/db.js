@@ -1,12 +1,11 @@
 import pg from "pg";
 const { Pool } = pg;
 
-// TODO: make connection to docker postgres image
-// localhost connection
+// docker connection
 export const pool = new Pool({
     user: "postgres", 
-    password: "root",
-    host: "localhost",
+    password: "postgres",
+    host: "postgres",
     port: 5432,
-    database: "foodreceipt"
+    database: "food-db"
 });
