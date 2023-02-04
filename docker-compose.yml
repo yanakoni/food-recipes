@@ -9,7 +9,7 @@ services:
       - "POSTGRES_USER=postgres"
       - "POSTGRES_PASSWORD=postgres"
     volumes:
-      - "data/:/var/lib/postgresql/data:delegated"
+      - "./data/:/var/lib/postgresql/data:delegated"
 
 
   api:
