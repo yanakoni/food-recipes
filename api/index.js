@@ -2,7 +2,6 @@ import  express  from "express";
 import { Environment } from "./packages/general/environment.js"
 import {router} from "./routes/userroutes.js"
 
-const PORT = Environment.config.http.LOCAL_PORT;
 const app = express();
 
 app.use('/api/user', router);
