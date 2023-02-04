@@ -1,10 +1,12 @@
 import  express  from "express";
-import { Environment } from "./packages/general/environment.js"
 import {router} from "./routes/userroutes.js"
 
 const app = express();
+const PORT = process.env.LOCAL_PORT ?? 3000;
 
-app.use('/api/user', router);
+app.use(express.json());
+app.use('/api', router);
+
 app.get('/', (req, res) => {
     res.send("<h1>it works!!!!!!</h1>");
 });

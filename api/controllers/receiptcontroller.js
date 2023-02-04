@@ -1,3 +1,3 @@
-export class UserController {
+export class ReceiptController {
 
 }
