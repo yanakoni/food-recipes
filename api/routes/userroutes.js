@@ -1,11 +1,10 @@
 import { Router } from "express";
 import { UserController} from "../controllers/usercontroller.js";
-
+import {verifyToken} from "../middleware/jwtAuth.js";
 export const router = new Router();
 const userController = new UserController();
 
-router.get('/users', userController.getUsers);
-router.get('/users/:id', userController.getUser);
-router.post('/users', userController.createUser);
-router.put('/users', userController.updateUser);
-router.delete('/users/:id', userController.deleteUser);
+router.post('/test', userController.test);
+router.post('/hello', verifyToken, userController.helloworld);
+router.post('/signup', userController.singUp);
+router.post('/signin', userController.singIn);
