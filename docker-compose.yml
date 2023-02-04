@@ -9,7 +9,8 @@ services:
       - "POSTGRES_USER=postgres"
       - "POSTGRES_PASSWORD=postgres"
     volumes:
-      - "./data/:/var/lib/postgresql/data:delegated"
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./db_fixtures:/tmp/pg-fixtures/
 
 
   api:
