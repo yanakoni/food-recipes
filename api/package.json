@@ -1,7 +1,7 @@
 {
   "name": "food-recipes",
   "version": "1.0.0",
-  "description": "food-recipes hackaton test assigment",
+  "description": "food-recipes hackathon test assigment",
   "main": "src/index.js",
   "type": "module",
   "scripts": {

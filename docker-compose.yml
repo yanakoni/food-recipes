@@ -9,7 +9,7 @@ services:
       - "POSTGRES_USER=postgres"
       - "POSTGRES_PASSWORD=postgres"
     volumes:
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./db_fixtures/init.sql:/docker-entrypoint-initdb.d/init.sql
       - ./db_fixtures:/tmp/pg-fixtures/
 
 

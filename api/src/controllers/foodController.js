@@ -6,39 +6,23 @@ export class FoodController {
     async ingredients(req, res) {
       const skip = parseInt(req.query.skip) || 0;
       const take = parseInt(req.query.take) || PAGE_SIZE;
-        try {
-            const ingredients = await prisma.ingredient.findMany({
-              skip: skip,
-              take: take,
-            });
-            res.status(200).json(ingredients);
-        }
-        catch (e) {
-            console.warn(e);
-            return res.status(400).json({
-                message: "unexpected error"
-            });
-        }
+      const ingredients = await prisma.ingredient.findMany({
+        skip: skip,
+        take: take,
+      });
+      res.status(200).json(ingredients);
     }
     async meals(req, res) {
       const skip = parseInt(req.query.skip) || 0;
       const take = parseInt(req.query.take) || PAGE_SIZE;
-        try {
-            const meals = await prisma.meal.findMany({
-                include: {
-                    ingredients: true
-                },
-                skip: skip,
-                take: take,
-            });
-            res.status(200).json(meals);
-        }
-        catch (e) {
-            console.warn(e);
-            return res.status(400).json({
-                message: "unexpected error"
-            });
-        }
+      const meals = await prisma.meal.findMany({
+        include: {
+          ingredients: true
+        },
+        skip: skip,
+        take: take,
+      });
+      res.status(200).json(meals);
     }
 
     async getCategories(req, res) {
@@ -49,6 +33,5 @@ export class FoodController {
         take: take,
       });
       res.status(200).json(cats);
-
     }
 }

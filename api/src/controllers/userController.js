@@ -5,7 +5,7 @@ const prisma = new PrismaClient();
 
 export class UserController {
     async singUp(req, res) {
-        const { username, password, email } = req.body;
+        const { username, password } = req.body;
         try {
             const exist = await prisma.user.findFirst({
                 where: {
@@ -19,7 +19,6 @@ export class UserController {
             }
             await prisma.user.create({
                 data: {
-                    email: email,
                     username: username,
                     password: bcrypt.hashSync(password, parseInt(process.env.API_SECRET))
                 }
@@ -68,8 +67,7 @@ export class UserController {
             res.status(200).json({
                 user: {
                     id: user.id,
-                    username: user.username,
-                    email: user.email
+                    username: user.username
                 },
                 message: "Login successfully",
                 accessToken: token

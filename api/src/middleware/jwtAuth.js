@@ -11,10 +11,9 @@ export const verifyToken = (req, res, next) => {
                 message: "User is not authorized"
             })
         }
-        const decodedData = jwt.verify(token, process.env.API_SECRET);
-        req.user = decodedData;
+      req.user = jwt.verify(token, process.env.API_SECRET);
         next()
-    }catch(e){
+    } catch(e){
         console.log(e);
         return res.status(403).json({
             message: "User is not authorized"
