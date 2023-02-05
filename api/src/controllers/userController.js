@@ -7,13 +7,13 @@ export class UserController {
     async singUp(req, res) {
         const { username, password, email } = req.body;
         try {
-            const exister = await prisma.user.findFirst({
+            const exist = await prisma.user.findFirst({
                 where: {
                     username: username
                 }
             });
-            if (exister) {
-                return res.status(400).json({
+            if (exist) {
+                return res.status(409).json({
                     message: "User already exist"
                 });
             }
@@ -24,7 +24,7 @@ export class UserController {
                     password: bcrypt.hashSync(password, parseInt(process.env.API_SECRET))
                 }
             });
-            res.status(200).json({
+            res.status(201).json({
                 message: "User successfully created"
             });
         } catch (e) {
@@ -64,14 +64,14 @@ export class UserController {
             }, process.env.API_SECRET, {
                 expiresIn: "1h"
             });
-            
+
             res.status(200).json({
                 user: {
                     id: user.id,
                     username: user.username,
                     email: user.email
                 },
-                message: "Login successfull",
+                message: "Login successfully",
                 accessToken: token
             })
         }

@@ -4,11 +4,14 @@
 ## Local run
 
 - `docker compose build`
-- `docker compose up --abort-on-container-exit`
+- `docker compose up postgres`
+
+from api folder
+- `cp .env.example .env`
+- `npm install`
+- `npx prisma migrate`
+- run `npm start` from api folder
 
 ## Prerequisites
 
 - docker + docker-compose
-
-## Docker Postgure Local installation 
-- docker run --name mypostgres -p 5432:5432 -e POSTGRES_PASSWORD=root -d postgres
