@@ -5,31 +5,14 @@ const prisma = new PrismaClient()
 
 export class UserController {
     async test(req, res){ 
-        const username = "roman";
-        const password = "12345";
-        const user = await prisma.users.findFirst({
-                where: {
-                    username: username
-                }
-        });
-        console.log(user)
-        res.status(200).json({
-            message: "111111"
-        })
-    }
-    async helloworld(req, res){ 
-        res.status(200).json({
-            message: "mat shluha"
-        })
+        const ingredient = await prisma.ingredient.findMany();
+        console.log(ingredient)
+        res.status(200).json(ingredient);
     }
     async singUp(req, res) {
-        //const { username, password, email } = req.body;
-        const username = "roman";
-        const password = "12345";
-        const email = "roman@gmail.com";
-        console.log(username);
+        const { username, password, email } = req.body;
         try {
-            const exister = await prisma.users.findFirst({
+            const exister = await prisma.user.findFirst({
                 where: {
                     username: username
                 }
@@ -39,7 +22,7 @@ export class UserController {
                     message: "User already exist"
                 });
             }
-            await prisma.users.create({
+            await prisma.user.create({
                 data: {
                     email: email,
                     username: username,
@@ -57,11 +40,9 @@ export class UserController {
         }
     }
     async singIn(req, res){
-        //const { username, password} = req.body;
-        const username = "roman";
-        const password = "12345";
+        const { username, password} = req.body;
         try{
-            const user = await prisma.users.findFirst({
+            const user = await prisma.user.findFirst({
                 where: {
                     username: username
                 }
