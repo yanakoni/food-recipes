@@ -1,14 +1,9 @@
 import { PrismaClient } from '@prisma/client'
 import bcrypt from "bcrypt";
 import jwt from 'jsonwebtoken';
-const prisma = new PrismaClient()
+const prisma = new PrismaClient();
 
 export class UserController {
-    async test(req, res){ 
-        const ingredient = await prisma.ingredient.findMany();
-        console.log(ingredient)
-        res.status(200).json(ingredient);
-    }
     async singUp(req, res) {
         const { username, password, email } = req.body;
         try {
@@ -26,7 +21,7 @@ export class UserController {
                 data: {
                     email: email,
                     username: username,
-                    password: bcrypt.hashSync(password, 5)
+                    password: bcrypt.hashSync(password, parseInt(process.env.API_SECRET))
                 }
             });
             res.status(200).json({

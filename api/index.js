@@ -1,5 +1,6 @@
 import  express  from "express";
-import {router} from "./routes/userroutes.js"
+import {userrouter} from "./routes/userroutes.js"
+import { mealrouter } from "./routes/mealroutes.js";
 
 const app = express();
 const PORT = process.env.LOCAL_PORT ?? 3000;
@@ -9,8 +10,8 @@ app.use(express.urlencoded({
     extended: true
   }));
 
-app.use('/user', router);
-
+app.use('/user', userrouter);
+app.use('/meal', mealrouter);
 app.get('/', (req, res) => {
     res.send("<h1>it works!!!!!!</h1>");
 });

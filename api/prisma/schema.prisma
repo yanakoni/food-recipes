@@ -8,9 +8,8 @@ datasource db {
 }
 
 
-model User {
+model user {
   id            Int             @id @default(autoincrement())
-  email         String          @unique
   username      String
   password      String
 }
@@ -32,8 +31,8 @@ model meal{
 
 model ingredient_measure {
     id                  Int             @id @default(autoincrement())
-    ingredient          ingredient      @relation(fields: [igredient_name], references: [name])
-    igredient_name      String
+    ingredient          ingredient      @relation(fields: [ingredient_name], references: [name])
+    ingredient_name      String
     meal                meal            @relation(fields: [meal_id], references: [id])
     meal_id             Int
     measure             String
