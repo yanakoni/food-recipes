@@ -22,8 +22,9 @@ create table if not exists public.ingredient
         primary key
 );
 
-create table if not exists public.user (
-    id serial
+create table if not exists public.user
+(
+    id            serial
         primary key,
     username varchar(255) unique not null,
     password varchar(255) not null
@@ -64,6 +65,15 @@ create table if not exists public.ingredient_measure
     measure         varchar(255)
 );
 
+create table if not exists public.user_ingredients
+(
+    id            serial
+        primary key,
+    ingredient_name varchar(255) not null
+        references public.ingredient,
+    user_id         integer      not null
+        references public.user
+);
 
 \COPY area(name) FROM '/tmp/pg-fixtures/area.csv' DELIMITER ',' CSV HEADER;
 \COPY category(name) FROM '/tmp/pg-fixtures/category.csv' DELIMITER ',' CSV HEADER;

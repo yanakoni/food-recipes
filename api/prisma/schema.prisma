@@ -9,9 +9,10 @@ datasource db {
 
 
 model user {
-  id            Int             @id @default(autoincrement())
-  username      String
-  password      String
+    id            Int             @id @default(autoincrement())
+    username      String
+    password      String
+    ingredients user_ingredients[]
 }
 
 model meal{
@@ -41,6 +42,7 @@ model ingredient_measure {
 model ingredient {
     name    String                      @id
     ingredients ingredient_measure[]
+    users user_ingredients[]
 }
 
 model area {
@@ -65,4 +67,12 @@ model meal_tag_association {
     tag_name   String
 
     @@unique([meal_id, tag_name])
+}
+
+model user_ingredients {
+    id                  Int             @id @default(autoincrement())
+    ingredient          ingredient      @relation(fields: [ingredient_name], references: [name])
+    ingredient_name     String
+    user                user            @relation(fields: [user_id], references: [id])
+    user_id             Int
 }
