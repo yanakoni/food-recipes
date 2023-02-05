@@ -13,7 +13,7 @@ export const verifyToken = (req, res, next) => {
                 message: "User is not authorized"
             })
         }
-        const decodedData = jwt.verify(token, "1234567");
+        const decodedData = jwt.verify(token, process.env.API_SECRET);
         req.user = decodedData;
         next()
     }catch(e){
