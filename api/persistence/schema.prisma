@@ -1,0 +1,65 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+model User {
+  id            Int             @id @default(autoincrement())
+  email         String          @unique
+  username      String
+  password      String
+}
+
+model meal{
+    id              Int                         @id @default(autoincrement())
+    name            String
+    recipe_source   String?
+    instructions    String?
+    youtube_link    String?
+    meal_thumb      String?
+    category        category                    @relation(fields: [category_name], references: [name])
+    category_name   String
+    area            area                        @relation(fields: [area_name], references: [name])
+    area_name       String
+    ingredients ingredient_measure[]
+    meal_tag_association meal_tag_association[]
+}
+
+model ingredient_measure {
+    id                  Int             @id @default(autoincrement())
+    ingredient          ingredient      @relation(fields: [igredient_name], references: [name])
+    igredient_name      String
+    meal                meal            @relation(fields: [meal_id], references: [id])
+    meal_id             Int
+    measure             String
+}
+
+model ingredient {
+    name    String                      @id
+    ingredients ingredient_measure[]
+}
+
+model area {
+    name    String  @id
+    meals   meal[]
+}
+
+model category {
+    name    String  @id
+    meals   meal[]
+}
+
+model tag {
+    name    String  @id
+    meal_tag_association meal_tag_association[]
+}
+
+model meal_tag_association {
+    meal        meal        @relation(fields: [meal_id], references: [id])
+    meal_id     Int
+    tag         tag         @relation(fields: [tag_name], references: [name])
+    tag_name   String
+
+    @@unique([meal_id, tag_name])
+}
