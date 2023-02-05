@@ -5,6 +5,5 @@ export const router = new Router();
 const userController = new UserController();
 
 router.post('/test', userController.test);
-router.post('/hello', verifyToken, userController.helloworld);
 router.post('/signup', userController.singUp);
 router.post('/signin', userController.singIn);
