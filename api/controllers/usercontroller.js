@@ -66,7 +66,7 @@ export class UserController {
               }
             const token = jwt.sign({
                 id: user.id
-            }, "1234567", {
+            }, process.env.API_SECRET, {
                 expiresIn: "1h"
             });
             
