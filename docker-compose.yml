@@ -13,13 +13,13 @@ services:
       - ./db_fixtures:/tmp/pg-fixtures/
 
 
-#  api:
-#    image: "food-api"
-#    build:
-#      context: api
-#      dockerfile: "Dockerfile"
-#      target: "dev"
-#    tty: true
-#    stdin_open: true
-#    ports:
-#      - "3000:3000"
+  api:
+    image: "food-api"
+    build:
+      context: api
+      dockerfile: "Dockerfile"
+      target: "dev"
+    tty: true
+    stdin_open: true
+    ports:
+      - "4000:4000"

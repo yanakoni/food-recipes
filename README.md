@@ -1,16 +1,12 @@
 # Food Recipes App
 
 
-## Local run
+## Local run via docker-compose
 
+- `cp api/.env.example api/.env`
 - `docker compose build`
-- `docker compose up postgres`
+- `docker compose up`
 
-from api folder
-- `cp .env.example .env`
-- `npm install`
-- `npx prisma migrate`
-- run `npm start` from api folder
 
 ## Prerequisites
 

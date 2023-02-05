@@ -1,13 +1,14 @@
 import { PrismaClient } from '@prisma/client'
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import jwt from 'jsonwebtoken';
-const prisma = new PrismaClient();
+
 
 export class UserController {
+  prisma = new PrismaClient();
     async singUp(req, res) {
         const { username, password } = req.body;
         try {
-            const exist = await prisma.user.findFirst({
+            const exist = await this.prisma.user.findFirst({
                 where: {
                     username: username
                 }
@@ -17,7 +18,7 @@ export class UserController {
                     message: "User already exist"
                 });
             }
-            await prisma.user.create({
+            await this.prisma.user.create({
                 data: {
                     username: username,
                     password: bcrypt.hashSync(password, parseInt(process.env.API_SECRET))
@@ -36,7 +37,7 @@ export class UserController {
     async singIn(req, res){
         const { username, password} = req.body;
         try{
-            const user = await prisma.user.findFirst({
+            const user = await this.prisma.user.findFirst({
                 where: {
                     username: username
                 }
