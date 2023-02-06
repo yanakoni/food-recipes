@@ -1,0 +1,7 @@
+{
+  "root": true,
+  "ignorePatterns": ["**/*"],
+  "rules": {
+    "@typescript-eslint/no-non-null-assertion": "off"
+  }
+}

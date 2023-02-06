@@ -1,0 +1,18 @@
+.loader {
+  &-sm {
+    --bs-spinner-width: 20px !important;
+    --bs-spinner-height: 20px !important;
+  }
+  &-md {
+    --bs-spinner-width: 100px !important;
+    --bs-spinner-height: 100px !important;
+  }
+  &-lg {
+    --bs-spinner-width: 150px !important;
+    --bs-spinner-height: 150px !important;
+  }
+  &-xl {
+    --bs-spinner-width: 150px !important;
+    --bs-spinner-height: 150px !important;
+  }
+}

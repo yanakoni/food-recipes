@@ -1,0 +1,12 @@
+@import '../styles/variables';
+
+.checkbox {
+  width: calc($spacing * 5) !important;
+  height: calc($spacing * 5) !important;
+  margin: 0 !important;
+
+  &:checked {
+    background-color: $primary !important;
+    border-color: $primary !important;
+  }
+}

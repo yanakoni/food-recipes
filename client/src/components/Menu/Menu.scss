@@ -1,0 +1,22 @@
+@import '../../styles/variables';
+
+.menu {
+  z-index: 1002;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 0 calc($spacing * 2) calc($spacing * 1) !important;
+  background: $bg;
+  font-size: $font-size-base;
+  overflow-y: auto;
+  max-height: 100vh;
+  transition: all 0.3s;
+
+  .menu-close-btn {
+    position: absolute;
+    top: calc($spacing * 3);
+    right: calc($spacing * 3);
+  }
+}
