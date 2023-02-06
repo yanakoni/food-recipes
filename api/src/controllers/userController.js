@@ -98,15 +98,16 @@ class UserController {
 
   async userIngredients(req, res) {
     const username = req.query.user;
+    console.log(username);
     if (!username) {
       return res.status(401).json({
         message: 'Invalid query.',
       });
     }
     try {
-      const user = prisma.user.findUnique({
-        select : {
-          username : true,
+      const user = await prisma.user.findFirst({
+        where: {
+          username,
         },
         include: {
           ingredients: true
