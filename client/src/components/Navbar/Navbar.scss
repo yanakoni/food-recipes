@@ -1,0 +1,48 @@
+@import '../../styles/variables';
+
+.navbar-header {
+  z-index: 1001;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: calc($spacing * 3) !important;
+  padding-right: calc($spacing * 3);
+  background: $bg;
+  border-bottom: 1px solid $primary;
+  font-size: $font-size-base;
+
+  &.mobile {
+    max-height: 60px;
+
+    .nav-item {
+      max-height: 60px;
+    }
+  }
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: calc($spacing * 2);
+    padding-bottom: calc($spacing * 2);
+  }
+
+  .nav-link {
+    color: $secondary !important;
+    &.logo {
+      width: auto !important;
+      padding-left: 0 !important;
+    }
+  }
+
+  .dropdown-item.hover,
+  .dropdown-item:hover {
+    background: lighten($primary, 45);
+  }
+
+  .dropdown-item.active,
+  .dropdown-item:active {
+    background: lighten($primary, 35);
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../styles/variables';
+
+.meal-link {
+  display: flex;
+  flex-grow: 1;
+  color: $text;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    outline: none;
+
+    & .meal-card {
+      color: $text;
+      outline: solid calc(2 * $spacing) transparentize($primary, 0.8);
+    }
+  }
+}

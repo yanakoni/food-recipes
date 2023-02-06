@@ -1,0 +1,20 @@
+@import 'styles/variables';
+
+.root {
+  min-height: 100vh;
+  overflow: auto;
+  position: relative;
+  background: $bg;
+}
+
+.content {
+  height: 100vh;
+  max-width: none;
+  padding: calc($spacing * 16) calc($spacing * 6);
+}
+
+.list-header {
+  color: $secondary;
+  font-weight: 700;
+  margin-bottom: calc($spacing * 2);
+}

@@ -1,0 +1,10 @@
+@import '../../../styles/variables';
+
+.meal-card .card-header {
+  background-color: $primary;
+}
+
+.meal-card {
+  display: flex;
+  flex-grow: 1;
+}
