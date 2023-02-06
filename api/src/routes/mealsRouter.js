@@ -9,6 +9,6 @@ mealsRouter.get('/:id', mealController.mealById);
 mealsRouter.get('/:id/ingredients', mealController.ingredients);
 mealsRouter.get('/v1/categories', mealController.getCategories);
 mealsRouter.post('/v1/categories', mealController.createCategory);
-mealsRouter.post('/v1/ingredients', mealController.createCategory);
+mealsRouter.post('/v1/ingredients', mealController.createIngredient);
 
 export { mealsRouter };
