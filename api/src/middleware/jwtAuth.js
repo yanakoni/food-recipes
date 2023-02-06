@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 
-export const verifyToken = (req, res, next) => {
+const verifyToken = (req, res, next) => {
   if (req.method === 'OPTIONS') {
     next();
   }
@@ -25,3 +25,4 @@ export const verifyToken = (req, res, next) => {
     });
   }
 };
+export { verifyToken };

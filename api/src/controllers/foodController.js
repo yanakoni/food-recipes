@@ -41,5 +41,4 @@ class FoodController {
     res.status(200).json(categories);
   }
 }
-
 export { FoodController };
