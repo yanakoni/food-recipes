@@ -95,6 +95,38 @@ class UserController {
       next(e);
     }
   }
+
+  async userIngredients(req, res) {
+    const username = req.query.user;
+    if (!username) {
+      return res.status(401).json({
+        message: 'Invalid query.',
+      });
+    }
+    try {
+      const user = prisma.user.findUnique({
+        select : {
+          username : true,
+        },
+        include: {
+          ingredients: true
+        }
+      });
+      if(!user){
+        return res.status(404).json({
+          message: 'User not found.',
+        });
+      }
+      res.status(200).json(user);
+    }
+    catch (e) {
+      console.error(e);
+
+      res.status(404).json({
+        message: 'Unexpected error',
+      });
+    }
+  }
 }
 
 export { UserController };
