@@ -71,8 +71,9 @@ create table if not exists public.user_ingredients
         primary key,
     ingredient_name varchar(255) not null
         references public.ingredient,
-    user_id         integer      not null
-        references public.user
+    user_name         varchar(255)      not null
+        references public.user(username),
+    measure integer not null
 );
 
 \COPY area(name) FROM '/tmp/pg-fixtures/area.csv' DELIMITER ',' CSV HEADER;
