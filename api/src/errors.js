@@ -1,4 +1,4 @@
-export function errorHandler (err, req, res, next) {
-  res.status(500)
-  res.render('error', { error: err })
+export function errorHandler(error, req, res) {
+  res.status(500);
+  res.render('error', { error });
 }
