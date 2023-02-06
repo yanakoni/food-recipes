@@ -1,78 +1,77 @@
 generator client {
-  provider = "prisma-client-js"
+    provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
 }
 
-
 model user {
-    id            Int             @id @default(autoincrement())
-    username      String
-    password      String
+    id          Int                @id @default(autoincrement())
+    username    String
+    password    String
     ingredients user_ingredients[]
 }
 
-model meal{
-    id              Int                         @id @default(autoincrement())
-    name            String
-    recipe_source   String?
-    instructions    String?
-    youtube_link    String?
-    meal_thumb      String?
-    category        category                    @relation(fields: [category_name], references: [name])
-    category_name   String
-    area            area                        @relation(fields: [area_name], references: [name])
-    area_name       String
-    ingredients ingredient_measure[]
+model meal {
+    id                   Int                    @id @default(autoincrement())
+    name                 String
+    recipe_source        String?
+    instructions         String?
+    youtube_link         String?
+    meal_thumb           String?
+    category             category               @relation(fields: [category_name], references: [name])
+    category_name        String
+    area                 area                   @relation(fields: [area_name], references: [name])
+    area_name            String
+    ingredients          ingredient_measure[]
     meal_tag_association meal_tag_association[]
 }
 
 model ingredient_measure {
-    id                  Int             @id @default(autoincrement())
-    ingredient          ingredient      @relation(fields: [ingredient_name], references: [name])
-    ingredient_name      String
-    meal                meal            @relation(fields: [meal_id], references: [id])
-    meal_id             Int
-    measure             String
+    id              Int        @id @default(autoincrement())
+    ingredient      ingredient @relation(fields: [ingredient_name], references: [name])
+    ingredient_name String
+    meal            meal       @relation(fields: [meal_id], references: [id])
+    meal_id         Int
+    measure         String
 }
 
 model ingredient {
-    name    String                      @id
+    name        String               @id
     ingredients ingredient_measure[]
-    users user_ingredients[]
+    users       user_ingredients[]
 }
 
 model area {
-    name    String  @id
-    meals   meal[]
+    name  String @id
+    meals meal[]
 }
 
 model category {
-    name    String  @id
-    meals   meal[]
+    name  String @id
+    meals meal[]
 }
 
 model tag {
-    name    String  @id
+    name                 String                 @id
     meal_tag_association meal_tag_association[]
 }
 
 model meal_tag_association {
-    meal        meal        @relation(fields: [meal_id], references: [id])
-    meal_id     Int
-    tag         tag         @relation(fields: [tag_name], references: [name])
-    tag_name   String
+    meal     meal   @relation(fields: [meal_id], references: [id])
+    meal_id  Int
+    tag      tag    @relation(fields: [tag_name], references: [name])
+    tag_name String
 
     @@unique([meal_id, tag_name])
 }
 
 model user_ingredients {
-    id                  Int             @id @default(autoincrement())
-    ingredient          ingredient      @relation(fields: [ingredient_name], references: [name])
-    ingredient_name     String
-    user                user            @relation(fields: [user_id], references: [id])
-    user_id             Int
+    id              Int        @id @default(autoincrement())
+    ingredient      ingredient @relation(fields: [ingredient_name], references: [name])
+    ingredient_name String
+    user            user       @relation(fields: [user_id], references: [id])
+    user_id         Int
 }
