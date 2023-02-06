@@ -2,15 +2,14 @@ import { PrismaClient } from '@prisma/client';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
-const prisma = new PrismaClient();
 class UserController {
-
+  prisma = new PrismaClient();
 
   async singUp(req, res) {
     const { username, email, password } = req.body;
 
     try {
-      const exist = await prisma.user.findFirst({
+      const exist = await this.prisma.user.findFirst({
         where: {
           username,
           email,
@@ -46,7 +45,7 @@ class UserController {
   async singIn(req, res) {
     const { username, password } = req.body;
     try {
-      const user = await prisma.user.findFirst({
+      const user = await this.prisma.user.findFirst({
         where: {
           username: username,
         },
