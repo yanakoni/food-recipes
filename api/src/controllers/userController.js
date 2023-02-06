@@ -164,15 +164,11 @@ class UserController {
       res.status(200).json({ success: true });
     }
     catch (e) {
-      console.error(e);
-
       res.status(404).json({
         message: 'Unexpected error',
       });
     }
   }
 }
-
-
 
 export { UserController };
