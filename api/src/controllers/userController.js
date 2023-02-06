@@ -2,17 +2,22 @@ import { PrismaClient } from '@prisma/client';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
-class UserController {
-  prisma = new PrismaClient();
+const prisma = new PrismaClient();
 
-  async singUp(req, res) {
-    const { username, email, password } = req.body;
+class UserController {
+  async singUp(req, res, next) {
+    const { username, password } = req.body;
+
+    if (!username || !password) {
+      return res.status(400).json({
+        message: 'Check the input data.',
+      });
+    }
 
     try {
-      const exist = await this.prisma.user.findFirst({
+      const exist = await prisma.user.findFirst({
         where: {
           username,
-          email,
         },
       });
 
@@ -22,32 +27,36 @@ class UserController {
         });
       }
 
-      await this.prisma.user.create({
+      await prisma.user.create({
         data: {
           username,
-          email,
           password: bcrypt.hashSync(password, parseInt(process.env.API_SECRET)),
         },
       });
 
       res.status(201).json({
+        success: true,
         message: 'User successfully created.',
       });
     } catch (e) {
       console.error(e);
-
-      res.status(400).json({
-        message: 'Unexpected error.',
-      });
+      next(e);
     }
   }
 
-  async singIn(req, res) {
+  async singIn(req, res, next) {
     const { username, password } = req.body;
+
+    if (!username || !password) {
+      return res.status(400).json({
+        message: 'Check the input data.',
+      });
+    }
+
     try {
-      const user = await this.prisma.user.findFirst({
+      const user = await prisma.user.findFirst({
         where: {
-          username: username,
+          username,
         },
       });
 
@@ -77,18 +86,13 @@ class UserController {
       );
 
       res.status(200).json({
-        user: {
-          id: user.id,
-          username: user.username,
-        },
+        id: user.id,
+        username: user.username,
         accessToken,
       });
     } catch (e) {
       console.error(e);
-
-      res.status(404).json({
-        message: 'Unexpected error',
-      });
+      next(e);
     }
   }
 }
