@@ -132,29 +132,43 @@ class UserController {
     }
   }
   // only 1 ingridient by request
-  async addIngredient(req, res) {
+  async addIngredient(req, res, next) {
     console.log(req.body);
     try {
       const { username, ingredient } = req.body;
 
-      const ingredient_exist = await prisma.user_ingredients.findFirst({
+      const userIngredient = await prisma.user_ingredients.findFirst({
         where: {
           user_name: username,
           ingredient_name: ingredient.name
         }
       });
-      if (!ingredient_exist) {
+      if (!userIngredient) {
+
         await prisma.user_ingredients.create({
           data: {
-            ingredient_name: ingredient.name,
+            ingredient: {
+              connectOrCreate: {
+                where: {
+                  name: ingredient.name
+                },
+                create: {
+                  name: ingredient.name
+                }
+              }
+            },
+            user: {
+              connect: {
+                username: username
+              }
+            },
             measure: ingredient.measure,
-            user_name: username
           }
         })
       } else {
         await prisma.user_ingredients.update({
           where: {
-            id: ingredient_exist.id
+            id: userIngredient.id
           },
           data: {
             measure: ingredient.measure
@@ -164,9 +178,7 @@ class UserController {
       res.status(200).json({ success: true });
     }
     catch (e) {
-      res.status(404).json({
-        message: 'Unexpected error',
-      });
+      next(e);
     }
   }
 }
