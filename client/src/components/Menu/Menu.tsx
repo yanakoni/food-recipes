@@ -60,7 +60,7 @@ const Menu = ({ menuCollapsed, collapseToggle }: MenuProps) => {
             <NavLink onClick={() => onProtectedLinkClick(ProtectedPages.CREATE_MEAL)}>Create Meal</NavLink>
           </NavItem>
           <NavItem className="link-item">
-            <NavLink onClick={() => onProtectedLinkClick(ProtectedPages.CREATE_MEAL_CATEGORY)}>Create Meals Category</NavLink>
+            <NavLink onClick={() => onProtectedLinkClick(ProtectedPages.CREATE_MEAL_CATEGORY)}>Create Meal Category</NavLink>
           </NavItem>
           <NavItem className="link-item">
             <NavLink href={Pages.PRODUCTS}>Products List</NavLink>
@@ -70,9 +70,6 @@ const Menu = ({ menuCollapsed, collapseToggle }: MenuProps) => {
           </NavItem>
           <NavItem className="link-item">
             <NavLink onClick={() => onProtectedLinkClick(ProtectedPages.CREATE_PRODUCT)}>Create Product</NavLink>
-          </NavItem>
-          <NavItem className="link-item">
-            <NavLink onClick={() => onProtectedLinkClick(ProtectedPages.CREATE_PRODUCT_CATEGORY)}>Create Products Category</NavLink>
           </NavItem>
           {user.id && (
             <>

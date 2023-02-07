@@ -1,7 +1,15 @@
+import { Meal } from './meal';
+
 type Ingredient = {
   id: number;
   ingredientName: string;
-  measure: string;
+  measure: number;
+  mealId: Meal['id'];
 };
 
-export type { Ingredient };
+type UserIngredient = {
+  ingredientName: string;
+  measure: number;
+};
+
+export type { Ingredient, UserIngredient };

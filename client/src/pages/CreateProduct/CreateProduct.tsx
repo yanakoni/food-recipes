@@ -7,23 +7,22 @@ import CustomInput from '../../components/Input';
 import { TOAST_IMPORTANT_TIME_OUT_MS } from '../../utils/constants';
 import { handleError } from '../../utils/handleError';
 import { useNavigate } from 'react-router';
+import { protectedApiRequest } from '../../utils/protectedApiRequest';
 import { shallowEqual, useDispatch, useSelector } from 'react-redux';
 import { AppState } from '../../store/redux/interfaces';
 import { UserSlice } from '../../store';
-import { protectedApiRequest } from '../../utils/protectedApiRequest';
 
-const MealCategorySchema = yup
+const ProductSchema = yup
   .object({
-    category: yup.string().max(250, 'Maximum 250 characters').required('This field is required.'),
+    name: yup.string().max(250, 'Maximum 250 characters').required('This field is required.'),
   })
   .defined();
-type MealCategoryType = yup.InferType<typeof MealCategorySchema>;
+type ProductType = yup.InferType<typeof ProductSchema>;
 const initialValues = {
-  category: '',
+  name: '',
 };
 
-const CreateMealCategory = () => {
-  const navigate = useNavigate();
+const CreateProduct = () => {
   const { user } = useSelector(
     (state: AppState) => ({
       user: state.user,
@@ -32,6 +31,7 @@ const CreateMealCategory = () => {
   );
   const dispatch = useDispatch();
   const { updateTokens } = UserSlice.actions;
+  const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
 
   const enableLoading = () => {
@@ -41,12 +41,12 @@ const CreateMealCategory = () => {
     setLoading(false);
   };
 
-  const onCreate = async (values: MealCategoryType, action: any) => {
+  const onCreate = async (values: ProductType, action: any) => {
     const abortController = new AbortController();
     try {
       enableLoading();
       const response = await protectedApiRequest(
-        '/meal/v1/category',
+        '/meal/v1/ingredient',
         user,
         (accessToken, refreshToken) => dispatch(updateTokens({ accessToken, refreshToken })),
         {
@@ -69,11 +69,11 @@ const CreateMealCategory = () => {
         }
         abortController.abort();
       } else {
-        toastr.success('Success', 'Meal category created!', { timeOut: TOAST_IMPORTANT_TIME_OUT_MS });
+        toastr.success('Success', 'Product name created!', { timeOut: TOAST_IMPORTANT_TIME_OUT_MS });
         navigate(0);
       }
     } catch (err) {
-      handleError('MEAL_CATEGORY_CREATION', err);
+      handleError('PRODUCT_CREATION', err);
       abortController.abort();
     } finally {
       action.setSubmitting(false);
@@ -83,18 +83,18 @@ const CreateMealCategory = () => {
 
   return (
     <Col xs={12} md={6} lg={4} className="login-page align-items-center justify-content-center align-self-center">
-      <Formik initialValues={initialValues} validationSchema={MealCategorySchema} onSubmit={onCreate}>
+      <Formik initialValues={initialValues} validationSchema={ProductSchema} onSubmit={onCreate}>
         {(formik) => (
           <Col className="d-flex flex-column gap-5">
             <Row>
-              <h2 className="text-center">Create Category</h2>
+              <h2 className="text-center">Create a product</h2>
             </Row>
             <Row>
               <Form className="d-flex flex-column gap-3">
                 <CustomInput
-                  label="Category name"
-                  inputProps={{ id: 'category', name: 'category', type: 'text', value: formik.values.category, onChange: formik.handleChange }}
-                  error={formik.touched.category && formik.errors.category ? formik.errors.category : ''}
+                  label="Product name"
+                  inputProps={{ id: 'name', name: 'name', type: 'text', value: formik.values.name, onChange: formik.handleChange }}
+                  error={formik.touched.name && formik.errors.name ? formik.errors.name : ''}
                 />
               </Form>
             </Row>
@@ -122,4 +122,4 @@ const CreateMealCategory = () => {
   );
 };
 
-export { CreateMealCategory };
+export { CreateProduct };

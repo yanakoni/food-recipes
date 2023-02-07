@@ -1,3 +1,3 @@
-import { ProductSlice } from './slice';
+import { ProductsSlice } from './slice';
 
-export const ProductReducer = ProductSlice.reducer;
+export const ProductsReducer = ProductsSlice.reducer;

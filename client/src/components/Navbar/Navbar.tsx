@@ -99,7 +99,7 @@ const Navbar = () => {
                 <NavLink onClick={() => onProtectedLinkClick(ProtectedPages.CREATE_MEAL)}>Create Meal</NavLink>
               </DropdownItem>
               <DropdownItem className="link-item">
-                <NavLink onClick={() => onProtectedLinkClick(ProtectedPages.CREATE_MEAL_CATEGORY)}>Create Meals Category</NavLink>
+                <NavLink onClick={() => onProtectedLinkClick(ProtectedPages.CREATE_MEAL_CATEGORY)}>Create Meal Category</NavLink>
               </DropdownItem>
             </DropdownMenu>
           </Dropdown>
@@ -120,9 +120,6 @@ const Navbar = () => {
               <DropdownItem divider />
               <DropdownItem className="link-item">
                 <NavLink onClick={() => onProtectedLinkClick(ProtectedPages.CREATE_PRODUCT)}>Create Product</NavLink>
-              </DropdownItem>
-              <DropdownItem className="link-item">
-                <NavLink onClick={() => onProtectedLinkClick(ProtectedPages.CREATE_PRODUCT_CATEGORY)}>Create Products Category</NavLink>
               </DropdownItem>
             </DropdownMenu>
           </Dropdown>

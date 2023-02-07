@@ -1,6 +1,7 @@
 import { PrismaClient } from '@prisma/client';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
+import humps from 'humps';
 
 const prisma = new PrismaClient();
 
@@ -81,7 +82,17 @@ class UserController {
         },
         process.env.API_SECRET,
         {
-          expiresIn: '1h',
+          expiresIn: '10s',
+        }
+      );
+
+      const refreshToken = jwt.sign(
+        {
+          id: user.id,
+        },
+        process.env.API_REFRESH_SECRET,
+        {
+          expiresIn: '30d',
         }
       );
 
@@ -90,6 +101,7 @@ class UserController {
           id: user.id,
           username: user.username,
           accessToken,
+          refreshToken,
         },
       });
     } catch (e) {
@@ -129,7 +141,7 @@ class UserController {
       }
 
       res.status(200).json({
-        data: user.ingredients,
+        data: humps.camelizeKeys(user.ingredients),
         count: user.ingredients.length,
       });
     } catch (e) {

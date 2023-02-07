@@ -1,12 +1,12 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { initialState } from './initial-state';
-import { ProductState } from './type';
+import { ProductsState } from './type';
 
-export const ProductSlice = createSlice({
+export const ProductsSlice = createSlice({
   name: 'Product Object',
   initialState,
   reducers: {
-    setFilterOptions: (state: ProductState, action: PayloadAction<Partial<ProductState>>): ProductState => {
+    setFilterOptions: (state: ProductsState, action: PayloadAction<Partial<ProductsState>>): ProductsState => {
       return { ...state, ...action.payload };
     },
   },

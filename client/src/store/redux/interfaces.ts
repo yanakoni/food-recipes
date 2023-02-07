@@ -1,12 +1,12 @@
 import { ToastrState } from 'react-redux-toastr';
 import { UserState } from './reducer/user/type';
-import { ProductState } from './reducer/product/type';
+import { ProductsState } from './reducer/product/type';
 import { MealsState } from './reducer/meals/type';
 
 interface AppState {
   user: UserState;
   meals: MealsState;
-  products: ProductState;
+  products: ProductsState;
   toastr: ToastrState;
 }
 

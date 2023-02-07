@@ -13,8 +13,11 @@ import './App.scss';
 const Registration = lazy(() => import('./pages/Registration'));
 const Login = lazy(() => import('./pages/Login'));
 const Meals = lazy(() => import('./pages/Meals'));
+const Products = lazy(() => import('./pages/Products'));
 const Meal = lazy(() => import('./pages/Meal'));
 const CreateMealCategory = lazy(() => import('./pages/CreateMealCategory'));
+const CreateProduct = lazy(() => import('./pages/CreateProduct'));
+const Profile = lazy(() => import('./pages/Profile'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const cookies = new Cookies();
 
@@ -55,7 +58,10 @@ export default function App() {
                   <Route path={Pages.REGISTRATION} element={<Registration />} />
                   <Route path={Pages.LOGIN} element={<Login />} />
                   <Route path={Pages.MAIN} element={<Meals />} />
+                  <Route path={Pages.PRODUCTS} element={<Products />} />
+                  <Route path={ProtectedPages.CREATE_PRODUCT} element={<CreateProduct />} />
                   <Route path={Pages.MEAL} element={<Meal />} />
+                  <Route path={ProtectedPages.PROFILE} element={<Profile />} />
                   <Route path={ProtectedPages.CREATE_MEAL_CATEGORY} element={<CreateMealCategory />} />
                   <Route path="*" element={<NotFound />} />
                 </Routes>

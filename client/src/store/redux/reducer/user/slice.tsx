@@ -14,7 +14,6 @@ export const UserSlice = createSlice({
     },
     loginReducer: (state: UserState, action: PayloadAction<UserState>) => {
       const { id, username, accessToken, refreshToken } = action.payload;
-      console.log(action.payload);
       cookies.set('user', window.btoa(JSON.stringify(action.payload)));
       return { id, username, accessToken, refreshToken };
     },
