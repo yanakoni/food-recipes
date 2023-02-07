@@ -157,35 +157,35 @@ class UserController {
       const userIngredient = await prisma.user_ingredients.findFirst({
         where: {
           user_name: username,
-          ingredient_name: ingredient.name,
+          ingredient_name: ingredient.ingredientName,
         },
       });
-      if (!userIngredient) {
 
+      if (!userIngredient) {
         await prisma.user_ingredients.create({
           data: {
             ingredient: {
               connectOrCreate: {
                 where: {
-                  name: ingredient.name
+                  name: ingredient.ingredientName,
                 },
                 create: {
-                  name: ingredient.name
-                }
-              }
+                  name: ingredient.ingredientName,
+                },
+              },
             },
             user: {
               connect: {
-                username: username
-              }
+                username: username,
+              },
             },
             measure: ingredient.measure,
-          }
-        })
+          },
+        });
       } else {
         await prisma.user_ingredients.update({
           where: {
-            id: ingredientExists.id,
+            id: userIngredient.id,
           },
           data: {
             measure: ingredient.measure,
@@ -194,8 +194,7 @@ class UserController {
       }
 
       res.status(200).json({ success: true });
-    }
-    catch (e) {
+    } catch (e) {
       next(e);
     }
   }

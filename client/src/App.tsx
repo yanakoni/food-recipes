@@ -1,7 +1,7 @@
 import { Suspense, useEffect, lazy, useState } from 'react';
 import { Route, Routes } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
+import { shallowEqual, useDispatch, useSelector } from 'react-redux';
 import Cookies from 'universal-cookie';
 import { Container, Row } from 'reactstrap';
 import Loader from './components/Loader';
@@ -9,6 +9,8 @@ import Navbar from './components/Navbar';
 import { UserSlice } from './store';
 import { Pages, ProtectedPages } from './enums/pages.enum';
 import './App.scss';
+import { GuardedRoute } from './components/Routes/GuardedRoute';
+import { AppState } from './store/redux/interfaces';
 
 const Registration = lazy(() => import('./pages/Registration'));
 const Login = lazy(() => import('./pages/Login'));
@@ -23,6 +25,12 @@ const cookies = new Cookies();
 
 export default function App() {
   const dispatch = useDispatch();
+  const { user } = useSelector(
+    (state: AppState) => ({
+      user: state.user,
+    }),
+    shallowEqual
+  );
   const { reloadUser } = UserSlice.actions;
   const [reloaded, setReloaded] = useState(false);
 
@@ -59,10 +67,31 @@ export default function App() {
                   <Route path={Pages.LOGIN} element={<Login />} />
                   <Route path={Pages.MAIN} element={<Meals />} />
                   <Route path={Pages.PRODUCTS} element={<Products />} />
-                  <Route path={ProtectedPages.CREATE_PRODUCT} element={<CreateProduct />} />
                   <Route path={Pages.MEAL} element={<Meal />} />
-                  <Route path={ProtectedPages.PROFILE} element={<Profile />} />
-                  <Route path={ProtectedPages.CREATE_MEAL_CATEGORY} element={<CreateMealCategory />} />
+                  <Route
+                    path={ProtectedPages.CREATE_PRODUCT}
+                    element={
+                      <GuardedRoute auth={!!user.id}>
+                        <CreateProduct />
+                      </GuardedRoute>
+                    }
+                  />
+                  <Route
+                    path={ProtectedPages.CREATE_MEAL_CATEGORY}
+                    element={
+                      <GuardedRoute auth={!!user.id}>
+                        <CreateMealCategory />
+                      </GuardedRoute>
+                    }
+                  />
+                  <Route
+                    path={ProtectedPages.PROFILE}
+                    element={
+                      <GuardedRoute auth={!!user.id}>
+                        <Profile />
+                      </GuardedRoute>
+                    }
+                  />
                   <Route path="*" element={<NotFound />} />
                 </Routes>
               </Row>

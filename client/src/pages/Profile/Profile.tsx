@@ -78,15 +78,14 @@ const Profile = () => {
       <Row className="mb-5">
         <h3>Your available products (1 unit - 100 grams / milliliters )</h3>
       </Row>
-      <Row>
+      <Row className="mb-2">
         <h6>Add new product (1 unit - 100 grams / milliliters )</h6>
       </Row>
-      <div className="mb-5">
+      <div className="mb-3">
         <ProductCreationForm />
       </div>
       {loadingUserProducts && (
         <Row className="justify-content-center">
-          {' '}
           <Loader size="xl" />
         </Row>
       )}

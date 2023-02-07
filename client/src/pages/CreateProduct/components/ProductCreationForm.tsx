@@ -95,7 +95,7 @@ const ProductCreationForm = ({ values }: ProductCreationFormType) => {
   };
 
   return (
-    <Row>
+    <Row className="mb-3">
       <Formik initialValues={values ?? initialValues} validationSchema={ProductSchema} onSubmit={onSubmit}>
         {(formik) => (
           <Col>
