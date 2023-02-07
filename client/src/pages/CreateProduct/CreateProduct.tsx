@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Row, Col, Button, Form } from 'reactstrap';
-import { Formik } from 'formik';
+import { Formik, FormikTouched, setNestedObjectValues } from 'formik';
 import { toastr } from 'react-redux-toastr';
 import * as yup from 'yup';
 import CustomInput from '../../components/Input';
@@ -41,9 +41,17 @@ const CreateProduct = () => {
     setLoading(false);
   };
 
-  const onCreate = async (values: ProductType, action: any) => {
+  const onCreate = async (formik: any) => {
     const abortController = new AbortController();
     try {
+      const formikErrors = await formik.validateForm();
+      if (Object.keys(formikErrors).length) {
+        formik.setTouched(setNestedObjectValues<FormikTouched<ProductType>>(formikErrors, true));
+        return null;
+      }
+
+      const { values }: { values: ProductType } = formik;
+
       enableLoading();
       const response = await protectedApiRequest(
         '/meal/v1/ingredient',
@@ -76,7 +84,7 @@ const CreateProduct = () => {
       handleError('PRODUCT_CREATION', err);
       abortController.abort();
     } finally {
-      action.setSubmitting(false);
+      formik.setSubmitting(false);
       disableLoading();
     }
   };
@@ -105,11 +113,7 @@ const CreateProduct = () => {
                   color="secondary"
                   disabled={formik.isSubmitting || loading}
                   className="w-100 btn-md"
-                  onClick={() =>
-                    onCreate(formik.values, {
-                      setSubmitting: formik.setSubmitting,
-                    })
-                  }
+                  onClick={() => onCreate(formik)}
                 >
                   Create
                 </Button>
