@@ -82,7 +82,7 @@ const Registration = () => {
         {(formik) => (
           <Col className="d-flex flex-column gap-5">
             <Row>
-              <h2 className="text-center">Sign in</h2>
+              <h2 className="text-center">Sign up</h2>
             </Row>
             <Row>
               <Form className="d-flex flex-column gap-3">

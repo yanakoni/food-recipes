@@ -1,6 +1,6 @@
-type ProductState = {
+type ProductsState = {
   currentPage: number;
   limit: number;
 };
 
-export type { ProductState };
+export type { ProductsState };

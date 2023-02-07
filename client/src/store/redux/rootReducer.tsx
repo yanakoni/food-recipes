@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 import { reducer as ToastrReducer } from 'react-redux-toastr';
-import { UserReducer, MealsReducer, ProductReducer } from './reducer';
+import { UserReducer, MealsReducer, ProductsReducer } from './reducer';
 
 export const rootReducer = combineReducers({
   user: UserReducer,
   meals: MealsReducer,
-  products: ProductReducer,
+  products: ProductsReducer,
   toastr: ToastrReducer,
 });

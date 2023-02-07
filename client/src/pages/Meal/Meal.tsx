@@ -99,7 +99,7 @@ const MealPage = () => {
           </Row>
           <Row className="mb-2">
             <Col>
-              <p className="mb-2 fw-bold">Ingredients:</p>
+              <p className="mb-2 fw-bold">Ingredients (1 unit - 100 grams / milliliters ):</p>
               {meal.ingredients?.map((ingredient) => (
                 <p key={ingredient.id}>
                   <span>

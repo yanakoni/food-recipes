@@ -39,7 +39,7 @@ const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   useEffect(() => {
-    if (user) {
+    if (user.id) {
       navigate(ProtectedPages.PROFILE);
     }
   }, [user]);
@@ -62,8 +62,7 @@ const Login = () => {
     try {
       enableLoading();
       const response = await apiRequest('/user/sign-in', { method: 'POST', body: JSON.stringify(values), signal: abortController.signal });
-      const { message, id, username, accessToken, refreshToken } = await response.json();
-      const user = { id, username, accessToken, refreshToken };
+      const { message, data } = await response.json();
 
       if (message) {
         if (Array.isArray(message)) {
@@ -73,7 +72,7 @@ const Login = () => {
         }
         abortController.abort();
       } else {
-        dispatch(loginReducer(user));
+        dispatch(loginReducer(data));
         navigate(ProtectedPages.PROFILE);
       }
     } catch (err) {

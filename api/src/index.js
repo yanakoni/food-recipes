@@ -3,7 +3,7 @@ import cors from 'cors';
 import helmet from 'helmet';
 import { usersRouter } from './routes/usersRouter.js';
 import { mealsRouter } from './routes/mealsRouter.js';
-import { errorLogger, errorResponder, invalidPathHandler } from './middleware/errorHandler.js';
+import { errorLogger, errorResponder, invalidPathHandler } from './middlewares/errorHandler.js';
 
 const app = express();
 const PORT = process.env.PORT ?? 4000;
