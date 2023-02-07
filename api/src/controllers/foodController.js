@@ -28,12 +28,15 @@ class FoodController {
 
   async createIngredient(req, res, next) {
     try {
-      const { ingredient } = req.body;
+      const { name } = req.body;
 
-      if (!ingredient) {
+      if (!name) {
+        return res.status(401).json({
+          message: 'Check the input data.',
+        });
       }
 
-      await prisma.ingredient.create({ data: ingredient });
+      await prisma.ingredient.create({ data: { name } });
 
       res.status(200).json({ success: true });
     } catch (e) {
@@ -46,6 +49,9 @@ class FoodController {
       const { category } = req.body;
 
       if (!category) {
+        return res.status(401).json({
+          message: 'Check the input data.',
+        });
       }
 
       await prisma.category.create({ data: { name: category } });
@@ -60,7 +66,7 @@ class FoodController {
     try {
       const skip = parseInt(req.query.skip) || DEFAULT_SKIP;
       const take = parseInt(req.query.limit) || DEFAULT_LIMIT;
-      const category = req.query.category;
+      const { category } = req.query;
 
       const args = {
         include: {
@@ -86,14 +92,20 @@ class FoodController {
 
   async mealById(req, res, next) {
     try {
-      const id = +req.params.id;
+      let { id } = req.params;
+
+      if (!id) {
+        return res.status(401).json({
+          message: "Can't find meal",
+        });
+      }
 
       const meal = await prisma.meal.findUnique({
         include: {
           ingredients: true,
         },
         where: {
-          id,
+          id: +id,
         },
       });
 

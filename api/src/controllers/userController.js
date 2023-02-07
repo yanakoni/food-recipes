@@ -9,19 +9,19 @@ class UserController {
     const { username, password } = req.body;
 
     if (!username || !password) {
-      return res.status(400).json({
+      return res.status(401).json({
         message: 'Check the input data.',
       });
     }
 
     try {
-      const exist = await prisma.user.findFirst({
+      const userExists = await prisma.user.findFirst({
         where: {
           username,
         },
       });
 
-      if (exist) {
+      if (userExists) {
         return res.status(409).json({
           message: 'User already exists. Please log in.',
         });
@@ -48,7 +48,7 @@ class UserController {
     const { username, password } = req.body;
 
     if (!username || !password) {
-      return res.status(400).json({
+      return res.status(401).json({
         message: 'Check the input data.',
       });
     }
@@ -86,9 +86,11 @@ class UserController {
       );
 
       res.status(200).json({
-        id: user.id,
-        username: user.username,
-        accessToken,
+        data: {
+          id: user.id,
+          username: user.username,
+          accessToken,
+        },
       });
     } catch (e) {
       console.error(e);
@@ -97,12 +99,14 @@ class UserController {
   }
 
   async userIngredients(req, res, next) {
-    const username = req.query.username;
+    const { username } = req.query;
+
     if (!username) {
       return res.status(401).json({
-        message: 'Invalid query.',
+        message: "Can't find your data.",
       });
     }
+
     try {
       const user = await prisma.user.findFirst({
         where: {
@@ -112,36 +116,37 @@ class UserController {
           ingredients: {
             select: {
               ingredient_name: true,
-              measure: true
-            }
-          }
-        }
+              measure: true,
+            },
+          },
+        },
       });
+
       if (!user) {
         return res.status(404).json({
           message: 'User not found.',
         });
       }
+
       res.status(200).json({
-        username: user.username,
-        ingredients: user.ingredients
+        data: user.ingredients,
+        count: user.ingredients.length,
       });
-    }
-    catch (e) {
-      next(e)
+    } catch (e) {
+      next(e);
     }
   }
-  // only 1 ingridient by request
+
+  // only 1 ingredient by request
   async addIngredient(req, res, next) {
-    console.log(req.body);
     try {
       const { username, ingredient } = req.body;
 
       const userIngredient = await prisma.user_ingredients.findFirst({
         where: {
           user_name: username,
-          ingredient_name: ingredient.name
-        }
+          ingredient_name: ingredient.name,
+        },
       });
       if (!userIngredient) {
 
@@ -168,13 +173,14 @@ class UserController {
       } else {
         await prisma.user_ingredients.update({
           where: {
-            id: userIngredient.id
+            id: ingredientExists.id,
           },
           data: {
-            measure: ingredient.measure
-          }
-        })
+            measure: ingredient.measure,
+          },
+        });
       }
+
       res.status(200).json({ success: true });
     }
     catch (e) {

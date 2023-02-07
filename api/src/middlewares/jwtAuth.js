@@ -6,15 +6,16 @@ export const verifyToken = (req, res, next) => {
   }
 
   try {
-    const token = req.headers.authorization.split('Bearer ')[1];
+    const accessToken = req.headers['AccessToken'].split('Bearer ')[1];
+    const refreshToken = req.headers['RefreshToken'];
 
-    if (!token) {
+    if (!accessToken) {
       return res.status(403).json({
-        message: 'User is not authorized',
+        message: 'Not authorized.',
       });
     }
 
-    req.user = jwt.verify(token, process.env.API_SECRET);
+    req.user = jwt.verify(accessToken, process.env.API_SECRET);
 
     next();
   } catch (e) {
