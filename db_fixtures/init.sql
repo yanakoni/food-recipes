@@ -62,7 +62,7 @@ create table if not exists public.ingredient_measure
         references public.ingredient,
     meal_id         integer      not null
         references public.meal,
-    measure         varchar(255)
+    measure integer not null
 );
 
 create table if not exists public.user_ingredients

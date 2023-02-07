@@ -35,7 +35,7 @@ model ingredient_measure {
     ingredient_name String
     meal            meal       @relation(fields: [meal_id], references: [id])
     meal_id         Int
-    measure         String
+    measure         Int
 }
 
 model ingredient {
